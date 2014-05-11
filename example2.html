@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <title>Leaflet Sport Climbing Map example 2</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #map {
+			height: 100%;
+		}
+	</style>
+
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+
+
+
+  
+<script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
+<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
+
+
+<script src="leaflet-providers.js"></script>
+<!-- does not work
+<script src="http://leaflet-extras.github.io/leaflet-providers/leaflet-providers.js"></script>
+ -->
+
+<script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+
+</head>
+<body>
+
+        <div id="map"></div>
+        
+<script type="text/javascript">
+	
+			
+	var map = new L.Map('map', {
+	
+		center: [50, 8],
+		zoom: 10,
+		zoomControl: true
+	});
+			
+	var defaultLayer = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);	
+	var baseLayers = {
+		'OpenStreetMap Default': defaultLayer,
+		'OpenCycleMap': L.tileLayer.provider('OpenCycleMap'),
+		'Thunderforest Transport': L.tileLayer.provider('Thunderforest.Transport'),
+		'Thunderforest Landscape': L.tileLayer.provider('Thunderforest.Landscape'),
+		'MapQuest OSM': L.tileLayer.provider('MapQuestOpen.OSM'),
+		'Esri DeLorme': L.tileLayer.provider('Esri.DeLorme'),
+		'Esri WorldTopoMap': L.tileLayer.provider('Esri.WorldTopoMap'),
+		'Esri WorldPhysical': L.tileLayer.provider('Esri.WorldPhysical'),
+	   
+	
+	};
+	var overlayLayers = { 
+		'OpenWeatherMap Precipitation': L.tileLayer.provider('OpenWeatherMap.Precipitation'),
+		'OpenWeatherMap RainClassic': L.tileLayer.provider('OpenWeatherMap.RainClassic'),
+		
+	};
+	var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
+	
+	L.control.locate({
+		follow: true
+	}).addTo(map);
+
+	map.on('startfollowing', function() {
+		map.on('dragstart', lc.stopFollowing);
+	}).on('stopfollowing', function() {
+		map.off('dragstart', lc.stopFollowing);
+	});			
+
+</script>
+	
+<script src="data2.js"></script>
+<script src="app.js"></script>
+	
+
+</body>
+</html>
