@@ -99,7 +99,7 @@
 				else if (min) {tags += min + " and harder";}
 				else {tags += "up to " + max;}
 				if (mean) {tags += ", mean " + mean;}
-			}
+			} else {tags = tags.slice(0,-1);}
 
 
 			// Climbing information
