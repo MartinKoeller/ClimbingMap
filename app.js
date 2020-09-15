@@ -91,7 +91,7 @@
 			var min = a.tags["climbing:grade:uiaa:min"];
 			var max = a.tags["climbing:grade:uiaa:max"];
 			var mean = a.tags["climbing:grade:uiaa:mean"];
-			if (routes) {tags+="</br>Routes: " + routes + ", ";} else {tags += "</br>";}
+			if (routes) {tags+="</br>Routes: " + routes + ", ";} else if (plain || min || max) {tags += "</br>";}
 			if (plain) {tags += "UIAA grade: " + plain;}
 			else if (min || max) {
 				tags += "UIAA grade: ";
@@ -99,7 +99,7 @@
 				else if (min) {tags += min + " and harder";}
 				else {tags += "up to " + max;}
 				if (mean) {tags += ", mean " + mean;}
-			} else {tags = tags.slice(0,-1);}
+			}
 
 
 			// Climbing information
@@ -187,6 +187,7 @@
 				}
 			}
 			if (osm.length > 0) {tags += "</br></br> Other OSM tags:</br>" + osm.join("</br>");}
+			tags += "</br></br><a target=_blank href=\"https://osm.org/" + a.type + "/" + a.id + "\">OSM</a> <a target=_blank href=\"https://www.openstreetmap.org/edit?" + a.type + "=" + a.id + "\">iD</a> <a target=_blank href=\"http://127.0.0.1:8111/load_object?objects=" + a.type + a.id + "\">JOSM</a>"
 
 
 			if ( isClimbing) {
