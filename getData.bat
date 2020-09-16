@@ -1,7 +1,7 @@
 @echo off 
 set path=..\wget\
 
-wget -O target1.osm "http://overpass-api.de/api/interpreter?data=[out:json];node[\"sport\"=\"climbing\"];out;way[\"sport\"=\"climbing\"];out;>;out;"
+wget -O target1.osm "http://overpass-api.de/api/interpreter?data=[out:json];node[\"sport\"~\"climbing\"];out;way[\"sport\"~\"climbing\"];out;>;out;"
 
 echo var addressPoints= >data1.js
 type target1.osm >>data1.js
