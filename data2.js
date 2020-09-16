@@ -3,7 +3,7 @@ var addressPoints=
   "version": 0.6,
   "generator": "Overpass API 0.7.56.6 474850e8",
   "osm3s": {
-    "timestamp_osm_base": "2020-09-15T19:51:02Z",
+    "timestamp_osm_base": "2020-09-15T08:58:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -315,11 +315,11 @@ var addressPoints=
     "building": "yes",
     "climbing:sport": "yes",
     "contact:webcam": "http://www.t-hall.de/ffm/galerie/cam/THallFfm_cam.jpg",
-    "indoor": "yes",
     "leisure": "sports_centre",
     "name": "T-Hall",
     "opening_hours": "Mo-Fr 10:00-23:00; Oct-May: Sa-Su 10:00-23:00; Jun-Sep: Sa-Su 10:00-21:00",
-    "sport": "climbing"
+    "sport": "climbing",
+    "type": "indoor"
   }
 },
 {
@@ -333,21 +333,20 @@ var addressPoints=
     "addr:street": "Frankfurter Straße",
     "climbing:bolted": "2 m",
     "climbing:grade:uiaa:max": "8",
-    "climbing:grade:uiaa:min": "3",
-    "climbing:length": "19",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length": "20",
     "climbing:orientation": "S",
     "climbing:quality": "solid",
-    "climbing:routes": "59",
     "climbing:sport": "50",
     "contact:webcam": "http://www.21j.de/M1/webcam.jpg",
     "contact:website": "http://www.bioma-gmbh.de/",
     "fee": "yes",
     "leisure": "sports_centre",
     "name": "Kletterwand am Biomassekraftwerk",
-    "opening_hours": "Mo-Su 07:00–22:00",
+    "opening_hours": "sunrise-sunset",
     "operator": "Biomasse Rhein-Main GmbH",
     "sport": "climbing",
-    "website": "https://kletterfreunde-wicker.de/"
+    "website": "https://www.deponiepark.de/willkommen/aufgaben/natur-freizeit/kletterwand/"
   }
 },
 {
@@ -596,12 +595,9 @@ var addressPoints=
   "lon": 7.8311688,
   "tags": {
     "climbing:length": "30",
-    "climbing:orientation": "SO;NO",
-    "climbing:routes": "12",
     "climbing:sport": "8",
     "leisure": "track",
     "name": "Pfaffenfels",
-    "outdoor": "yes",
     "sport": "climbing"
   }
 },
@@ -1453,6 +1449,7 @@ var addressPoints=
   "lon": 7.8461340,
   "tags": {
     "climbing:bolted": "yes",
+    "climbing:bolts": "yes",
     "climbing:grade:uiaa:max": "8",
     "climbing:grade:uiaa:mean": "7",
     "climbing:grade:uiaa:min": "6",
@@ -1475,6 +1472,7 @@ var addressPoints=
   "lon": 7.8460785,
   "tags": {
     "climbing:bolted": "yes",
+    "climbing:bolts": "yes",
     "climbing:grade:uiaa:max": "8",
     "climbing:grade:uiaa:mean": "6",
     "climbing:grade:uiaa:min": "4",
@@ -1498,6 +1496,7 @@ var addressPoints=
   "lon": 7.8466941,
   "tags": {
     "climbing:bolted": "yes",
+    "climbing:bolts": "yes",
     "climbing:grade:uiaa:max": "8",
     "climbing:grade:uiaa:min": "6",
     "climbing:length": "15",
@@ -1563,13 +1562,13 @@ var addressPoints=
     "climbing:boulder": "yes",
     "climbing:sport": "81",
     "fee": "yes",
-    "indoor": "yes",
     "leisure": "sports_centre",
     "name": "Casamur",
     "opening_hours": "Mo-Th 12:00-22:00; Fr 14:00-22:00; Sa 13:30-18:00",
     "operator": "FFME 63",
     "phone": "+33 4 73 29 24 71",
     "sport": "climbing",
+    "type": "indoor",
     "website": "http://ffme63.blogspot.fr/p/salle-dcasamur.html"
   }
 },
@@ -3215,21 +3214,10 @@ var addressPoints=
   "lat": 49.9701301,
   "lon": 7.8740242,
   "tags": {
-    "access": "yes",
-    "climbing:bolted": "yes",
-    "climbing:grade:uiaa:max": "7+",
-    "climbing:grade:uiaa:min": "2",
     "climbing:length": "15",
-    "climbing:orientation": "S;N",
-    "climbing:rock": "quarzite",
-    "climbing:routes": "20",
     "climbing:sport": "25",
-    "fee": "no",
     "name": "Nikolausfels",
-    "outdoor": "yes",
-    "sport": "climbing",
-    "url": "https://www.waklam.de/klettern/nikolausfelsen-1.php",
-    "website": "http://www.ig-klettern-rhein-main.de/klettern/nikolausfels"
+    "sport": "climbing"
   }
 },
 {
@@ -5790,8 +5778,8 @@ var addressPoints=
     "access": "yes",
     "climbing": "route_bottom",
     "climbing:bolted": "yes",
-    "climbing:grade:uiaa:max": "6+",
-    "climbing:grade:uiaa:min": "5-",
+    "climbing:grade:UIAA:max": "6+",
+    "climbing:grade:UIAA:min": "5-",
     "climbing:length": "12",
     "climbing:length:max": "12",
     "climbing:orientation": "NW",
@@ -11437,8 +11425,8 @@ var addressPoints=
   "lat": 44.4875746,
   "lon": -74.8493718,
   "tags": {
+    "bolted": "yes",
     "climbing": "route_bottom",
-    "climbing:bolted": "yes",
     "climbing:grade:uiaa": "6-",
     "climbing:length": "10",
     "climbing:sport": "yes",
@@ -34306,26 +34294,6 @@ var addressPoints=
   }
 },
 {
-  "type": "node",
-  "id": 7908487058,
-  "lat": 45.8161435,
-  "lon": 10.0626883,
-  "tags": {
-    "climbing:bolted": "yes",
-    "climbing:grade:uiaa": "10-",
-    "climbing:grade:uiaa:min": "4",
-    "climbing:length:max": "35",
-    "climbing:length:min": "8",
-    "climbing:orientation": "SE",
-    "climbing:quality": "solid",
-    "climbing:rock": "limestone",
-    "climbing:routes": "39",
-    "climbing:sport": "39",
-    "name": "La Loverina",
-    "sport": "climbing"
-  }
-},
-{
   "type": "way",
   "id": 24354518,
   "nodes": [
@@ -34952,7 +34920,6 @@ var addressPoints=
     "addr:postcode": "55120",
     "addr:street": "Turmstraße",
     "building": "yes",
-    "climbing:boulder": "yes",
     "climbing:grade:uiaa:max": "9",
     "climbing:grade:uiaa:mean": "6",
     "climbing:grade:uiaa:min": "3",
@@ -72301,33 +72268,6 @@ var addressPoints=
     "name": "Schimmelecke",
     "natural": "cliff",
     "sport": "climbing"
-  }
-},
-{
-  "type": "way",
-  "id": 741034128,
-  "nodes": [
-    6937707464,
-    6937707465,
-    6937707466,
-    6937707467,
-    6937707464
-  ],
-  "tags": {
-    "building": "yes",
-    "climbing:bolted": "yes",
-    "climbing:boulder": "yes",
-    "climbing:sport": "yes",
-    "leisure": "sports_center",
-    "man_made": "tower",
-    "name": "Entdeckerturm",
-    "outdoor": "yes",
-    "sport": "climbing",
-    "tourism": "viewpoint",
-    "tower:construction": "stone",
-    "tower:type": "observation",
-    "website": "https://ronneburg.de/neue-landschaft/entdeckerturm/",
-    "wheelchair": "no"
   }
 },
 {
@@ -158942,30 +158882,6 @@ var addressPoints=
   "id": 6936476061,
   "lat": 49.6513012,
   "lon": 11.4243272
-},
-{
-  "type": "node",
-  "id": 6937707464,
-  "lat": 50.8558089,
-  "lon": 12.1719641
-},
-{
-  "type": "node",
-  "id": 6937707465,
-  "lat": 50.8558458,
-  "lon": 12.1720302
-},
-{
-  "type": "node",
-  "id": 6937707466,
-  "lat": 50.8559053,
-  "lon": 12.1719488
-},
-{
-  "type": "node",
-  "id": 6937707467,
-  "lat": 50.8558699,
-  "lon": 12.1718852
 },
 {
   "type": "node",
