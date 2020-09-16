@@ -15,14 +15,13 @@
 		}
 	</style>
 
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
-	<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 
-
-  
-<script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
-<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
 
 
 <script src="leaflet-providers.js"></script>
@@ -30,28 +29,28 @@
 <script src="http://leaflet-extras.github.io/leaflet-providers/leaflet-providers.js"></script>
  -->
 
-<script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<script src='https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js'></script>
+<link href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css' rel='stylesheet' />
+<link href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css' rel='stylesheet' />
 
 </head>
 <body>
 
         <div id="map"></div>
-        
+
 <script type="text/javascript">
-	
-			
+
+
 	var map = new L.Map('map', {
-	
+
 		center: [50, 8],
 		zoom: 10,
 		minZoom: 3,
 		maxZoom: 18,
 		zoomControl: true
 	});
-			
-	var defaultLayer = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);	
+
+	var defaultLayer = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
 	var baseLayers = {
 		'OpenStreetMap Default': defaultLayer,
 		'OpenCycleMap': L.tileLayer.provider('OpenCycleMap'),
@@ -61,16 +60,16 @@
 		'Esri DeLorme': L.tileLayer.provider('Esri.DeLorme'),
 		'Esri WorldTopoMap': L.tileLayer.provider('Esri.WorldTopoMap'),
 		'Esri WorldPhysical': L.tileLayer.provider('Esri.WorldPhysical'),
-	   
-	
+
+
 	};
-	var overlayLayers = { 
+	var overlayLayers = {
 		'OpenWeatherMap Precipitation': L.tileLayer.provider('OpenWeatherMap.Precipitation'),
 		'OpenWeatherMap RainClassic': L.tileLayer.provider('OpenWeatherMap.RainClassic'),
-		
+
 	};
 	var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
-	
+
 	L.control.locate({
 		follow: true
 	}).addTo(map);
@@ -79,13 +78,13 @@
 		map.on('dragstart', lc.stopFollowing);
 	}).on('stopfollowing', function() {
 		map.off('dragstart', lc.stopFollowing);
-	});			
+	});
 
 </script>
-	
+
 <script src="data2.js"></script>
 <script src="app.js"></script>
-	
+
 
 </body>
 </html>
