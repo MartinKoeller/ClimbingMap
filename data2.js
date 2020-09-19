@@ -1,9 +1,9 @@
 var addressPoints= 
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.56.6 474850e8",
+  "generator": "Overpass API 0.7.56.7 b85c4387",
   "osm3s": {
-    "timestamp_osm_base": "2020-09-16T07:27:03Z",
+    "timestamp_osm_base": "2020-09-19T05:44:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -294,14 +294,20 @@ var addressPoints=
   "lat": 50.1836548,
   "lon": 8.3122767,
   "tags": {
-    "climbing:length": "10",
+    "access": "yes",
+    "climbing:bolts": "no",
+    "climbing:length:max": "8",
+    "climbing:orientation": "N;NW",
+    "climbing:rock": "quarzite",
     "climbing:sport": "yes",
     "ele": "479",
+    "fee": "no",
     "leisure": "nature_reserve",
-    "name": "ND Hohler Stein",
+    "name": "Hohler Stein",
     "natural": "rock",
+    "outdoor": "yes",
     "sport": "climbing",
-    "website": "http://home.arcor.de/afischer1/klettern/klettern-im-taunus1.html",
+    "url": "http://www.ig-klettern-rhein-main.de/klettern/hohler-stein",
     "wikidata": "Q1576356",
     "wikipedia": "de:Hohler Stein (Taunus)"
   }
@@ -591,15 +597,35 @@ var addressPoints=
 },
 {
   "type": "node",
-  "id": 610738986,
-  "lat": 50.0150855,
-  "lon": 7.8311688,
+  "id": 538034289,
+  "lat": 50.0250925,
+  "lon": 8.7951953,
   "tags": {
-    "climbing:length": "30",
+    "climbing:boulder": "yes",
+    "climbing:length:max": "14",
+    "climbing:sport": "yes",
+    "climbing:toprope": "yes",
+    "description": "Fitnessstudio, Squash, Badminton, Klettern",
+    "fee": "yes",
+    "indoor": "yes",
+    "leisure": "sports_centre",
+    "name": "Squash Inn",
+    "sport": "squash;badminton;climbing;gymnastics",
+    "website": "https://squashinn.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 610738986,
+  "lat": 50.0151013,
+  "lon": 7.8311780,
+  "tags": {
+    "climbing:grade:uiaa:max": "7",
+    "climbing:grade:uiaa:min": "4+",
+    "climbing:length:max": "30",
     "climbing:orientation": "SO;NO",
     "climbing:routes": "12",
-    "climbing:sport": "8",
-    "leisure": "track",
+    "climbing:sport": "yes",
     "name": "Pfaffenfels",
     "outdoor": "yes",
     "sport": "climbing"
@@ -1286,9 +1312,8 @@ var addressPoints=
   "type": "node",
   "id": 1425479699,
   "lat": 50.0013106,
-  "lon": 7.8466006,
+  "lon": 7.8467749,
   "tags": {
-    "climbing:bolted": "yes",
     "climbing:bolts": "7",
     "climbing:grade:uiaa:max": "7",
     "climbing:grade:uiaa:mean": "5",
@@ -1309,21 +1334,20 @@ var addressPoints=
 {
   "type": "node",
   "id": 1425479700,
-  "lat": 50.0012896,
-  "lon": 7.8470462,
+  "lat": 50.0012780,
+  "lon": 7.8475354,
   "tags": {
-    "climbing:bolted": "yes",
     "climbing:bolts": "8",
     "climbing:grade:uiaa:max": "7",
     "climbing:grade:uiaa:mean": "5",
     "climbing:grade:uiaa:min": "3",
     "climbing:length": "15",
     "climbing:length:max": "20",
-    "climbing:orientation": "S-N",
+    "climbing:orientation": "N;E;S",
     "climbing:rock": "quartzite",
     "climbing:routes": "5",
     "climbing:sport": "yes",
-    "climbing:toprope": "yes",
+    "climbing:toprope": "no",
     "name": "Mainzer Turm",
     "outdoor": "yes",
     "sport": "climbing",
@@ -1333,17 +1357,16 @@ var addressPoints=
 {
   "type": "node",
   "id": 1425479704,
-  "lat": 50.0013055,
-  "lon": 7.8466859,
+  "lat": 50.0012777,
+  "lon": 7.8471236,
   "tags": {
-    "climbing:bolted": "yes",
     "climbing:bolts": "8",
     "climbing:grade:uiaa:max": "6",
     "climbing:grade:uiaa:mean": "4",
     "climbing:grade:uiaa:min": "3",
-    "climbing:length": "22",
-    "climbing:length:max": "28",
-    "climbing:orientation": "N",
+    "climbing:length": "20",
+    "climbing:length:max": "24",
+    "climbing:orientation": "N;E",
     "climbing:rock": "quartzite",
     "climbing:routes": "5",
     "climbing:sport": "yes",
@@ -1357,10 +1380,9 @@ var addressPoints=
 {
   "type": "node",
   "id": 1425479709,
-  "lat": 50.0012154,
-  "lon": 7.8474951,
+  "lat": 50.0011171,
+  "lon": 7.8474549,
   "tags": {
-    "climbing:bolted": "yes",
     "climbing:bolts": "8",
     "climbing:grade:uiaa:max": "8",
     "climbing:grade:uiaa:mean": "6",
@@ -1370,8 +1392,6 @@ var addressPoints=
     "climbing:rock": "quartzite",
     "climbing:routes": "5",
     "climbing:sport": "yes",
-    "climbing:toprope": "yes",
-    "description": "Die Rheinseite ist aus Sicherheitsgründen gesperrt.",
     "name": "Kristallspitze",
     "outdoor": "yes",
     "sport": "climbing",
@@ -1384,7 +1404,6 @@ var addressPoints=
   "lat": 50.0012332,
   "lon": 7.8477647,
   "tags": {
-    "climbing:bolted": "yes",
     "climbing:bolts": "8",
     "climbing:grade:uiaa:max": "7",
     "climbing:grade:uiaa:mean": "5",
@@ -1510,6 +1529,38 @@ var addressPoints=
     "outdoor": "yes",
     "sport": "climbing",
     "url": "http://felsinfo.alpenverein.de/kletterfelsen/hunsrueck_moseltal/morgenbachtal/herkules.html"
+  }
+},
+{
+  "type": "node",
+  "id": 1425479774,
+  "lat": 50.0045529,
+  "lon": 7.8475530,
+  "tags": {
+    "climbing:grade:uiaa:max": "6+",
+    "climbing:grade:uiaa:min": "3",
+    "climbing:routes": "18",
+    "climbing:sport": "yes",
+    "name": "Kreuzfelsen",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 1426012695,
+  "lat": 50.0015742,
+  "lon": 7.8411141,
+  "tags": {
+    "access": "yes",
+    "climbing:grade:uiaa:max": "7",
+    "climbing:grade:uiaa:min": "3",
+    "climbing:rock": "quartzite",
+    "climbing:routes": "10",
+    "climbing:sport": "yes",
+    "fee": "no",
+    "name": "Binger Wand",
+    "outdoor": "yes",
+    "sport": "climbing"
   }
 },
 {
@@ -2345,6 +2396,30 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 2213492565,
+  "lat": 50.0497579,
+  "lon": 8.2142908,
+  "tags": {
+    "addr:city": "Wiesbaden",
+    "addr:housename": "Wiesbadener Nordwand",
+    "addr:housenumber": "49",
+    "addr:postcode": "65203",
+    "addr:street": "Hagenauer Straße",
+    "climbing:boulder": "yes",
+    "climbing:sport": "yes",
+    "climbing:toprope": "yes",
+    "fee": "yes",
+    "indoor": "yes",
+    "leisure": "sports_centre",
+    "name": "Wiesbadener Nordwand",
+    "phone": "+49 611 98896244",
+    "source": "http://www.wiesbadener-nordwand.de/impressum.html",
+    "sport": "climbing",
+    "website": "https://wiesbadener-nordwand.de/"
+  }
+},
+{
+  "type": "node",
   "id": 2231887299,
   "lat": 52.3750287,
   "lon": 4.8421166,
@@ -2996,6 +3071,47 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 2405383994,
+  "lat": 46.8740964,
+  "lon": 9.2404624,
+  "tags": {
+    "climbing:grade:uiaa:max": "7+",
+    "climbing:grade:uiaa:mean": "7-",
+    "climbing:grade:uiaa:min": "5+",
+    "climbing:length:max": "70",
+    "climbing:multipitch": "yes",
+    "climbing:orientation": "E",
+    "climbing:rock": "limestone",
+    "climbing:routes": "12",
+    "climbing:sport": "yes",
+    "ele": "2100",
+    "name": "Segnesboden Sektor B",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "url": "https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/segnesboden-7090/klettern/segnesboden-ost-b-1666/"
+  }
+},
+{
+  "type": "node",
+  "id": 2405384307,
+  "lat": 46.8761337,
+  "lon": 9.2387055,
+  "tags": {
+    "climbing:length:max": "60",
+    "climbing:length:min": "20",
+    "climbing:multipitch": "yes",
+    "climbing:rock": "limestone",
+    "climbing:routes": "3",
+    "climbing:sport": "yes",
+    "ele": "2100",
+    "name": "Segnesboden Sektor A",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "url": "https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/segnesboden-7090/klettern/segnesboden-ost-a-kids-1665/"
+  }
+},
+{
+  "type": "node",
   "id": 2408037174,
   "lat": 63.6273035,
   "lon": 9.6831429,
@@ -3111,6 +3227,25 @@ var addressPoints=
     "climbing:sport": "yes",
     "climbing:trad": "yes",
     "name": "Størenhammeren",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 2408281942,
+  "lat": 46.8728031,
+  "lon": 9.2361175,
+  "tags": {
+    "climbing:grade:uiaa:max": "7",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length:max": "80",
+    "climbing:multipitch": "yes",
+    "climbing:orientation": "E",
+    "climbing:rock": "limestone",
+    "climbing:routes": "9",
+    "climbing:sport": "yes",
+    "name": "Segnesboden Sektor C",
+    "outdoor": "yes",
     "sport": "climbing"
   }
 },
@@ -3390,6 +3525,7 @@ var addressPoints=
     "climbing:boulder": "yes",
     "climbing:sport": "yes",
     "fee": "yes",
+    "indoor": "yes",
     "leisure": "sports_centre",
     "name": "Kletterhalle FITZ ROCKS",
     "opening_hours": "Mo 13:00-23:00; Tu-Fr 10:00-23:00; Sa-Su 10:00-21:00; PH 10:00-21:00",
@@ -3875,10 +4011,18 @@ var addressPoints=
   "lat": 50.2909630,
   "lon": 8.0307217,
   "tags": {
-    "climbing:length": "13",
+    "climbing:bolts": "yes",
+    "climbing:grade:uiaa:max": "8",
+    "climbing:grade:uiaa:mean": "6",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length:max": "12",
+    "climbing:orientation": "S",
     "climbing:rock": "limestone",
+    "climbing:routes": "14",
     "climbing:sport": "11",
+    "fee": "no",
     "name": "Burg Hohlenfels",
+    "outdoor": "yes",
     "sport": "climbing",
     "website": "http://felsinfo.alpenverein.de/felsinfo/rhein-main-gebiet/burg_hohlenfels/3927"
   }
@@ -6588,6 +6732,19 @@ var addressPoints=
     "phone": "+48 733434332",
     "sport": "climbing;gymnastics",
     "website": "http://myavatar.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3997800550,
+  "lat": 54.3824070,
+  "lon": 18.5962148,
+  "tags": {
+    "climbing:boulder": "yes",
+    "climbing:sport": "yes",
+    "leisure": "sports_centre",
+    "name": "Blokfit Boulder Center Gdańsk",
+    "sport": "climbing"
   }
 },
 {
@@ -9556,6 +9713,37 @@ var addressPoints=
     "climbing:sport": "3",
     "sport": "climbing",
     "website": "https://climbing.plus/bouldern/1003-bouldergarden-hirzmannsperre"
+  }
+},
+{
+  "type": "node",
+  "id": 5274194221,
+  "lat": 47.5356337,
+  "lon": 19.0418263,
+  "tags": {
+    "addr:city": "Budapest",
+    "addr:country": "HU",
+    "addr:housenumber": "19-21",
+    "addr:postcode": "1036",
+    "addr:street": "Fényes Adolf utca",
+    "addr:suburb": "Goldberger",
+    "addr:unit": "31",
+    "alt_name": "Spider Falmászó klub",
+    "climbing:bouldering": "yes",
+    "climbing:sport": "yes",
+    "description": "Keressétek a narancssárga ajtót, pókkal!",
+    "email": "info@spiderclub.hu",
+    "leisure": "fitness_centre",
+    "name": "Spider club",
+    "name:en": "Spider club- rocktown",
+    "name:ru": "Spider club. Скалодром",
+    "opening_hours": "Mo-Fr 13:00-23:00; Sa,Su 10:00-22:00",
+    "operator": "Falmászó SE",
+    "payment:bank_card": "no",
+    "payment:cash": "yes",
+    "phone": "+36 20 519 3234;+36 20 368 4606",
+    "sport": "climbing",
+    "website": "https://www.spiderclub.hu/"
   }
 },
 {
@@ -15398,6 +15586,79 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 5796572264,
+  "lat": 46.4494329,
+  "lon": 8.1339771,
+  "tags": {
+    "access": "yes",
+    "alt_name": "Klettergarten Burgkante",
+    "climbing:bolts": "yes",
+    "climbing:grade:uiaa:max": "6+",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length:max": "200",
+    "climbing:length:min": "20",
+    "climbing:multipitch": "yes",
+    "climbing:routes": "9",
+    "climbing:sport": "yes",
+    "climbing:toprope": "yes",
+    "ele": "1670",
+    "fee": "no",
+    "name": "Klettergarten Burgwand",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "website": "http://www.burghuette.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 5796572265,
+  "lat": 46.4503620,
+  "lon": 8.1342384,
+  "tags": {
+    "access": "yes",
+    "climbing:bolts": "yes",
+    "climbing:grade:uiaa:max": "7",
+    "climbing:grade:uiaa:min": "3",
+    "climbing:length": "30",
+    "climbing:length:max": "150",
+    "climbing:multipitch": "yes",
+    "climbing:routes": "30",
+    "climbing:sport": "yes",
+    "climbing:toprope": "yes",
+    "ele": "1670",
+    "fee": "no",
+    "name": "Klettergarten Sonnenplatten",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "website": "http://www.burghuette.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 5796572266,
+  "lat": 46.4501900,
+  "lon": 8.1348249,
+  "tags": {
+    "access": "yes",
+    "climbing:bolts": "yes",
+    "climbing:grade:uiaa:max": "6",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length": "30",
+    "climbing:length:max": "120",
+    "climbing:multipitch": "yes",
+    "climbing:routes": "9",
+    "climbing:sport": "yes",
+    "climbing:toprope": "yes",
+    "ele": "1680",
+    "fee": "no",
+    "name": "Klettergarten Burgplatten",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "website": "http://www.burghuette.ch/"
+  }
+},
+{
+  "type": "node",
   "id": 5798518274,
   "lat": 46.3616969,
   "lon": 13.0307320,
@@ -17669,6 +17930,19 @@ var addressPoints=
     "addr:street": "Camí del Molí del Vilar",
     "climbing:sport": "yes",
     "name": "Racó de la Coma Closa",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 6815381739,
+  "lat": 48.8061685,
+  "lon": 8.4423574,
+  "tags": {
+    "alt_name": "Mittlere Gruppe",
+    "climbing:sport": "yes",
+    "description": "Nur von Talseite besteigen",
+    "name": "Grüner Turm",
     "sport": "climbing"
   }
 },
@@ -24654,6 +24928,23 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 7205896851,
+  "lat": 49.0159372,
+  "lon": 8.4147699,
+  "tags": {
+    "addr:city": "Karlsruhe",
+    "addr:housenumber": "13",
+    "addr:postcode": "76131",
+    "addr:street": "Engler-Bunte-Ring",
+    "climbing:boulder": "yes",
+    "climbing:sport": "yes",
+    "indoor": "yes",
+    "leisure": "sports_centre",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
   "id": 7206931385,
   "lat": 37.6522560,
   "lon": -83.7087830,
@@ -30961,6 +31252,24 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 7538445886,
+  "lat": 48.6853820,
+  "lon": 8.3589166,
+  "tags": {
+    "access": "yes",
+    "climbing:grade:uiaa:max": "7",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:rock": "granite",
+    "climbing:routes": "4",
+    "climbing:sport": "yes",
+    "fee": "no",
+    "name": "Eulenfelsen (Eulenturm, Hüttenmassiv)",
+    "outdoor": "yes",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
   "id": 7545818713,
   "lat": 45.6283057,
   "lon": 4.4482943,
@@ -34326,6 +34635,173 @@ var addressPoints=
   }
 },
 {
+  "type": "node",
+  "id": 7914338066,
+  "lat": 48.8056830,
+  "lon": 8.4403887,
+  "tags": {
+    "alt_name": "Obere Gruppe",
+    "climbing:grade:uiaa:max": "8",
+    "climbing:grade:uiaa:mean": "6",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length": "30",
+    "climbing:length:max": "40",
+    "climbing:orientation": "S-O",
+    "climbing:rock": "porphyry",
+    "climbing:sport": "yes",
+    "description": "Vom 1. Januar bis zum Brutende Kletterverbot aus Naturschutzgründen.",
+    "name": "Falkenstein",
+    "opening_hours": "Jan 01-May 15 closed",
+    "sport": "climbing",
+    "website": "http://felsinfo.alpenverein.de/felsinfo/schwarzwald/falkenfelsen/1289"
+  }
+},
+{
+  "type": "node",
+  "id": 7914338067,
+  "lat": 48.8074146,
+  "lon": 8.4420115,
+  "tags": {
+    "alt_name": "Untere Gruppe",
+    "climbing:bolts": "yes",
+    "climbing:grade:uiaa:max": "9",
+    "climbing:grade:uiaa:mean": "6+",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length": "30",
+    "climbing:length:max": "40",
+    "climbing:orientation": "S-O",
+    "climbing:quality": "medium",
+    "climbing:rock": "porphyry",
+    "climbing:routes": "24",
+    "climbing:sport": "yes",
+    "description": "Ausstiegsverbot am Grünen Turm, Zugang nur von der Talseite. Neutouren sind nur nach Genehmigung durch die Untere Naturschutzbehörde möglich. Abstimmung mit dem Arbeitskreis Nordschwarzwald notwendig.",
+    "name": "Zwölf Apostel",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "website": "http://felsinfo.alpenverein.de/felsinfo/schwarzwald/falkenfelsen/1290"
+  }
+},
+{
+  "type": "node",
+  "id": 7914395721,
+  "lat": 48.6851366,
+  "lon": 8.3593619,
+  "tags": {
+    "access": "yes",
+    "climbing:grade:uiaa:max": "7",
+    "climbing:grade:uiaa:mean": "6",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length": "20",
+    "climbing:length:max": "35",
+    "climbing:rock": "granite",
+    "climbing:routes": "8",
+    "climbing:sport": "yes",
+    "fee": "no",
+    "name": "Eulenfelsen (Blankenturm, Murgmassiv, Hexenwand)",
+    "outdoor": "yes",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7914395722,
+  "lat": 48.6908967,
+  "lon": 8.3623472,
+  "tags": {
+    "access": "yes",
+    "alt_name": "Gausbacher Straßenwandl",
+    "climbing:bolted": "2",
+    "climbing:grade:uiaa:max": "9+",
+    "climbing:grade:uiaa:mean": "7-",
+    "climbing:grade:uiaa:min": "3+",
+    "climbing:length": "20",
+    "climbing:length:max": "40",
+    "climbing:length:min": "12",
+    "climbing:orientation": "W-S",
+    "climbing:quality": "medium",
+    "climbing:rock": "granite",
+    "climbing:routes": "49",
+    "climbing:sport": "yes",
+    "fee": "no",
+    "name": "Gausbacher Straßenfelsen",
+    "outdoor": "yes",
+    "sport": "climbing",
+    "url": "http://felsinfo.alpenverein.de/felsinfo/schwarzwald/murgtal/1312",
+    "website": "http://www.klettern-nordschwarzwald.de/murgtal/gausbacher-strassenwandl.html"
+  }
+},
+{
+  "type": "node",
+  "id": 7917867065,
+  "lat": 50.0009367,
+  "lon": 7.8481040,
+  "tags": {
+    "access": "no",
+    "climbing:grade:uiaa:max": "6",
+    "climbing:grade:uiaa:min": "3",
+    "climbing:rock": "quartzite",
+    "climbing:routes": "8",
+    "climbing:sport": "yes",
+    "fee": "no",
+    "name": "Bachtürme",
+    "outdoor": "yes",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7917867066,
+  "lat": 50.0005501,
+  "lon": 7.8476969,
+  "tags": {
+    "access": "yes",
+    "climbing:grade:uiaa:max": "6",
+    "climbing:grade:uiaa:mean": "5-",
+    "climbing:grade:uiaa:min": "3+",
+    "climbing:routes": "4",
+    "climbing:sport": "yes",
+    "fee": "no",
+    "name": "Kleopatra",
+    "outdoor": "yes",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7919208747,
+  "lat": 50.0793577,
+  "lon": 8.1330590,
+  "tags": {
+    "climbing:bolts": "yes",
+    "climbing:boulder": "yes",
+    "climbing:grade:uiaa:max": "8",
+    "climbing:grade:uiaa:min": "3",
+    "climbing:length": "12",
+    "climbing:length:max": "15",
+    "climbing:length:min": "5",
+    "climbing:orientation": "W;O",
+    "climbing:rock": "quarzite",
+    "climbing:routes": "20",
+    "climbing:sport": "yes",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7919208748,
+  "lat": 50.1312542,
+  "lon": 8.1766006,
+  "tags": {
+    "climbing:bolts": "no",
+    "climbing:boulder": "yes",
+    "climbing:grade:uiaa:max": "6+",
+    "climbing:length:max": "7",
+    "climbing:routes": "16",
+    "climbing:sport": "yes",
+    "sport": "climbing"
+  }
+},
+{
   "type": "way",
   "id": 24354518,
   "nodes": [
@@ -35079,6 +35555,7 @@ var addressPoints=
     "leisure": "sports_centre",
     "name": "DAV Kletterzentrum",
     "sport": "climbing",
+    "survey:date": "2020-09-16",
     "website": "https://www.kletterzentrum-reutlingen.de/"
   }
 },
@@ -35713,7 +36190,8 @@ var addressPoints=
     "landuse": "quarry",
     "leisure": "pitch",
     "name": "Palestra di Roccia di Avigliana",
-    "sport": "climbing"
+    "sport": "climbing",
+    "website": "https://www.caitorino.it/montievalli/2018/03/21/la-palestra-di-roccia-di-avigliana/"
   }
 },
 {
@@ -37244,7 +37722,7 @@ var addressPoints=
     "climbing:length": "17",
     "climbing:multipitch": "no",
     "climbing:sport": "yes",
-    "climbing:toproute": "yes",
+    "climbing:toprope": "yes",
     "contact:phone": "+43 4052657",
     "contact:website": "http://www.kletterzentrum.at",
     "fee": "yes",
@@ -39038,6 +39516,33 @@ var addressPoints=
 },
 {
   "type": "way",
+  "id": 135161857,
+  "nodes": [
+    1484621080,
+    1484621073,
+    1484621077,
+    1484621090,
+    1484621092,
+    1484621076,
+    1484621080
+  ],
+  "tags": {
+    "access": "yes",
+    "climbing:grade:uiaa:max": "8-",
+    "climbing:grade:uiaa:min": "5",
+    "climbing:routes": "30",
+    "climbing:sport": "yes",
+    "description": "Alter Steinbruch",
+    "fee": "no",
+    "name": "Hängende Gärten",
+    "outdoor": "yes",
+    "ref": "N52°48.155` E008°41.192`",
+    "sport": "climbing",
+    "website": "https://www.alpenverein-pforzheim.de/kletternhuetten/klettergebiete.html"
+  }
+},
+{
+  "type": "way",
   "id": 135162660,
   "nodes": [
     1484627534,
@@ -39057,7 +39562,7 @@ var addressPoints=
     "climbing:orientation": "S",
     "climbing:quality": "medium",
     "climbing:rock": "sandstone",
-    "climbing:routes": "40",
+    "climbing:routes": "27",
     "climbing:sport": "yes",
     "ele": "300",
     "fee": "no",
@@ -39065,7 +39570,8 @@ var addressPoints=
     "name": "Amphitheater",
     "outdoor": "yes",
     "source": "GPS",
-    "sport": "climbing"
+    "sport": "climbing",
+    "website": "https://www.alpenverein-pforzheim.de/kletternhuetten/klettergebiete.html"
   }
 },
 {
@@ -40263,41 +40769,6 @@ var addressPoints=
     "rock": "limestone",
     "source": "survey",
     "sport": "climbing"
-  }
-},
-{
-  "type": "way",
-  "id": 169681062,
-  "nodes": [
-    1808475708,
-    2985106343,
-    1808475715,
-    1808475710,
-    1808475713
-  ],
-  "tags": {
-    "access": "yes",
-    "alt_name": "Gausbacher Straßenwandl",
-    "climbing:bolted": "2",
-    "climbing:grade:uiaa:max": "9+",
-    "climbing:grade:uiaa:mean": "6",
-    "climbing:grade:uiaa:min": "3+",
-    "climbing:length": "20",
-    "climbing:length:max": "30",
-    "climbing:length:min": "12",
-    "climbing:orientation": "S;SW;W",
-    "climbing:quality": "medium",
-    "climbing:rock": "granite",
-    "climbing:routes": "49",
-    "climbing:sport": "yes",
-    "fee": "no",
-    "name": "Gausbacher Straßenfelsen",
-    "natural": "cliff",
-    "opening_hours": "24/7",
-    "outdoor": "yes",
-    "sport": "climbing",
-    "url": "http://felsinfo.alpenverein.de/felsinfo/schwarzwald/murgtal/1312",
-    "website": "http://www.klettern-nordschwarzwald.de/murgtal/gausbacher-strassenwandl.html"
   }
 },
 {
@@ -45693,6 +46164,7 @@ var addressPoints=
   "nodes": [
     5084464775,
     2914427037,
+    7913823735,
     2914427040
   ],
   "tags": {
@@ -85781,6 +86253,42 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 1484621073,
+  "lat": 48.8691341,
+  "lon": 8.6865973
+},
+{
+  "type": "node",
+  "id": 1484621076,
+  "lat": 48.8692364,
+  "lon": 8.6864954
+},
+{
+  "type": "node",
+  "id": 1484621077,
+  "lat": 48.8691023,
+  "lon": 8.6867233
+},
+{
+  "type": "node",
+  "id": 1484621080,
+  "lat": 48.8692082,
+  "lon": 8.6864712
+},
+{
+  "type": "node",
+  "id": 1484621090,
+  "lat": 48.8691252,
+  "lon": 8.6867394
+},
+{
+  "type": "node",
+  "id": 1484621092,
+  "lat": 48.8691446,
+  "lon": 8.6866295
+},
+{
+  "type": "node",
   "id": 1484627527,
   "lat": 48.8556503,
   "lon": 8.6858687
@@ -88261,30 +88769,6 @@ var addressPoints=
   "id": 1805533910,
   "lat": 50.2042918,
   "lon": 19.7286021
-},
-{
-  "type": "node",
-  "id": 1808475708,
-  "lat": 48.6908827,
-  "lon": 8.3624728
-},
-{
-  "type": "node",
-  "id": 1808475710,
-  "lat": 48.6901532,
-  "lon": 8.3626981
-},
-{
-  "type": "node",
-  "id": 1808475713,
-  "lat": 48.6897920,
-  "lon": 8.3628161
-},
-{
-  "type": "node",
-  "id": 1808475715,
-  "lat": 48.6903444,
-  "lon": 8.3627624
 },
 {
   "type": "node",
@@ -101245,12 +101729,6 @@ var addressPoints=
   "id": 2984971139,
   "lat": 46.6414970,
   "lon": 14.9518232
-},
-{
-  "type": "node",
-  "id": 2985106343,
-  "lat": 48.6906205,
-  "lon": 8.3626805
 },
 {
   "type": "node",
@@ -168279,6 +168757,12 @@ var addressPoints=
   "id": 7894026554,
   "lat": 49.2098194,
   "lon": 7.8597093
+},
+{
+  "type": "node",
+  "id": 7913823735,
+  "lat": 49.9704856,
+  "lon": 11.1884615
 }
 
   ]
