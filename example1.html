@@ -73,11 +73,22 @@
 	L.control.locate({
 		follow: true
 	}).addTo(map);
+	
+	var hash = window.location.hash.substr(5).split("/");
+	if (hash.length == 3)
+		map.setView(L.latLng(parseFloat(hash[0]),parseFloat(hash[1])),parseFloat(hash[2]));
 
 	map.on('startfollowing', function() {
 		map.on('dragstart', lc.stopFollowing);
 	}).on('stopfollowing', function() {
 		map.off('dragstart', lc.stopFollowing);
+	});
+	
+	map.on('zoomend moveend', function() {
+		var lat = map.getCenter().lat.toFixed(4);
+		var lng = map.getCenter().lng.toFixed(4);
+		var zoom = map.getZoom();
+		window.location.hash = `map=${lat}/${lng}/${zoom}`;
 	});
 
 </script>
