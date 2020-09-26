@@ -3,7 +3,7 @@ var addressPoints=
   "version": 0.6,
   "generator": "Overpass API 0.7.56.7 b85c4387",
   "osm3s": {
-    "timestamp_osm_base": "2020-09-25T07:55:02Z",
+    "timestamp_osm_base": "2020-09-26T10:55:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21135,7 +21135,6 @@ var addressPoints=
   "lon": 4.0824101,
   "tags": {
     "climbing:sport": "yes",
-    "leisure": "sports_centre",
     "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
     "sport": "climbing"
   }
@@ -34972,6 +34971,24 @@ var addressPoints=
 },
 {
   "type": "way",
+  "id": 4374185,
+  "nodes": [
+    26673673,
+    26673672,
+    26673675
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 4 to 7",
+    "name": "Hammeren",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2856"
+  }
+},
+{
+  "type": "way",
   "id": 24354518,
   "nodes": [
     264194847,
@@ -44246,6 +44263,7 @@ var addressPoints=
     "climbing": "crag",
     "climbing:routes": "6",
     "climbing:sport": "yes",
+    "climbing:toprope": "yes",
     "description": "Grade: 3- to 4+",
     "name": "Dalsvågen",
     "natural": "cliff",
@@ -76594,6 +76612,108 @@ var addressPoints=
 },
 {
   "type": "way",
+  "id": 815882843,
+  "nodes": [
+    7619959594,
+    7619959595
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 4 to 9-",
+    "name": "Firestarter",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2862"
+  }
+},
+{
+  "type": "way",
+  "id": 815882845,
+  "nodes": [
+    7619959595,
+    1219768746
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 6- to 8",
+    "name": "Opium",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2864"
+  }
+},
+{
+  "type": "way",
+  "id": 815882848,
+  "nodes": [
+    1219768844,
+    1219768674
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 7+",
+    "name": "Stepping on a snake",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2858"
+  }
+},
+{
+  "type": "way",
+  "id": 815882849,
+  "nodes": [
+    7619959597,
+    7619959596
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 6 to 7+",
+    "name": "Limbo",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2863"
+  }
+},
+{
+  "type": "way",
+  "id": 815882850,
+  "nodes": [
+    7619959599,
+    7619959598
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 8-",
+    "name": "Fest for nervene",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2860"
+  }
+},
+{
+  "type": "way",
+  "id": 815882854,
+  "nodes": [
+    7619959604,
+    1219768706
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 8-",
+    "name": "Envenom",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2859"
+  }
+},
+{
+  "type": "way",
   "id": 816269429,
   "nodes": [
     7623536724,
@@ -77959,6 +78079,24 @@ var addressPoints=
     "natural": "cliff",
     "sport": "climbing"
   }
+},
+{
+  "type": "node",
+  "id": 26673672,
+  "lat": 58.9031586,
+  "lon": 5.7857997
+},
+{
+  "type": "node",
+  "id": 26673673,
+  "lat": 58.9032222,
+  "lon": 5.7855869
+},
+{
+  "type": "node",
+  "id": 26673675,
+  "lat": 58.9031739,
+  "lon": 5.7859246
 },
 {
   "type": "node",
@@ -83492,6 +83630,30 @@ var addressPoints=
   "id": 1219328054,
   "lat": 58.1110283,
   "lon": 7.9293849
+},
+{
+  "type": "node",
+  "id": 1219768674,
+  "lat": 58.9033704,
+  "lon": 5.7871106
+},
+{
+  "type": "node",
+  "id": 1219768706,
+  "lat": 58.9040018,
+  "lon": 5.7883941
+},
+{
+  "type": "node",
+  "id": 1219768746,
+  "lat": 58.9045680,
+  "lon": 5.7895601
+},
+{
+  "type": "node",
+  "id": 1219768844,
+  "lat": 58.9031648,
+  "lon": 5.7865792
 },
 {
   "type": "node",
@@ -166842,6 +167004,48 @@ var addressPoints=
   "id": 7618230953,
   "lat": 44.2726862,
   "lon": 7.7733338
+},
+{
+  "type": "node",
+  "id": 7619959594,
+  "lat": 58.9041454,
+  "lon": 5.7886944
+},
+{
+  "type": "node",
+  "id": 7619959595,
+  "lat": 58.9043902,
+  "lon": 5.7892049
+},
+{
+  "type": "node",
+  "id": 7619959596,
+  "lat": 58.9044597,
+  "lon": 5.7891846
+},
+{
+  "type": "node",
+  "id": 7619959597,
+  "lat": 58.9043476,
+  "lon": 5.7889278
+},
+{
+  "type": "node",
+  "id": 7619959598,
+  "lat": 58.9043388,
+  "lon": 5.7888693
+},
+{
+  "type": "node",
+  "id": 7619959599,
+  "lat": 58.9041750,
+  "lon": 5.7884387
+},
+{
+  "type": "node",
+  "id": 7619959604,
+  "lat": 58.9036850,
+  "lon": 5.7877843
 },
 {
   "type": "node",
