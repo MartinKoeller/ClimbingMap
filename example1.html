@@ -101,7 +101,7 @@
 	if (hash.length == 3) {
 		map.setView(L.latLng(parseFloat(hash[0]),parseFloat(hash[1])),parseFloat(hash[2]));
 	} else {
-		cookie = getCookie("_osm_location").split("|");
+		cookie = getCookie("_old_location").split("%7C");
 		if (cookie.length == 3){
 			map.setView(L.latLng(parseFloat(cookie[0]),parseFloat(cookie[1])),parseFloat(cookie[2]));
 		}
@@ -118,8 +118,7 @@
 		var lng = map.getCenter().lng.toFixed(4);
 		var zoom = map.getZoom();
 		window.location.hash = `map=${lat}/${lng}/${zoom}`;
-		setCookie("_osm_location",`${lat}|${lng}|${zoom}`,365);
-		//console.log(`${lat}%7C${lng}%7C${zoom}`);
+		setCookie("_old_location",`${lat}%7C${lng}%7C${zoom}`,365);
 	});
 
 </script>
