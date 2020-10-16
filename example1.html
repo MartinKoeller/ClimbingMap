@@ -39,14 +39,14 @@
         <div id="map"></div>
 
 <script type="text/javascript">
-	
+
 	function setCookie(cname, cvalue, exdays) {
 	  var d = new Date();
 	  d.setTime(d.getTime() + (exdays*24*60*60*1000));
 	  var expires = "expires="+ d.toUTCString();
 	  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 	}
-	
+
 	function getCookie(cname) {
 	  var name = cname + "=";
 	  var decodedCookie = decodeURIComponent(document.cookie);
@@ -96,7 +96,7 @@
 	L.control.locate({
 		follow: true
 	}).addTo(map);
-	
+
 	var hash = window.location.hash.substr(5).split("/");
 	if (hash.length == 3) {
 		map.setView(L.latLng(parseFloat(hash[0]),parseFloat(hash[1])),parseFloat(hash[2]));
@@ -113,7 +113,7 @@
 	}).on('stopfollowing', function() {
 		map.off('dragstart', lc.stopFollowing);
 	});
-	
+
 	map.on('zoomend moveend', function() {
 		var lat = map.getCenter().lat.toFixed(4);
 		var lng = map.getCenter().lng.toFixed(4);
