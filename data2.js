@@ -3,7 +3,7 @@ var addressPoints=
   "version": 0.6,
   "generator": "Overpass API 0.7.56.6 474850e8",
   "osm3s": {
-    "timestamp_osm_base": "2020-10-16T15:59:03Z",
+    "timestamp_osm_base": "2020-10-16T21:55:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18087,7 +18087,6 @@ var addressPoints=
   "lon": 16.5215157,
   "tags": {
     "access": "no",
-    "building": "no",
     "climbing:sport": "yes",
     "fee": "no",
     "indoor": "no",
@@ -47395,6 +47394,29 @@ var addressPoints=
 },
 {
   "type": "way",
+  "id": 285593017,
+  "nodes": [
+    2550653320,
+    2550653322,
+    2550653339
+  ],
+  "tags": {
+    "climbing:grade:uiaa:max": "7-",
+    "climbing:grade:uiaa:min": "4",
+    "climbing:length:max": "70",
+    "climbing:length:min": "10",
+    "climbing:orientation": "S",
+    "climbing:quality": "solid",
+    "climbing:rock": "limestone",
+    "climbing:routes": "10",
+    "climbing:sport": "yes",
+    "name": "Roßstein Südwand",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "way",
   "id": 285870907,
   "nodes": [
     2895075049,
@@ -48986,6 +49008,24 @@ var addressPoints=
     "name": "Kletterhalle Südstadt",
     "opening_hours": "Mo-Su 10:00-22:00",
     "operator": "Naturfreunde Wien Kletterhallen GmbH",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "way",
+  "id": 311793203,
+  "nodes": [
+    2550653339,
+    3175130710
+  ],
+  "tags": {
+    "climbing:multipitch": "yes",
+    "climbing:orientation": "S",
+    "climbing:quality": "solid",
+    "climbing:rock": "limestone",
+    "climbing:sport": "yes",
+    "name": "Buchstein Südwand",
+    "natural": "cliff",
     "sport": "climbing"
   }
 },
@@ -98313,6 +98353,24 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 2550653320,
+  "lat": 47.6319288,
+  "lon": 11.6765430
+},
+{
+  "type": "node",
+  "id": 2550653322,
+  "lat": 47.6319463,
+  "lon": 11.6772964
+},
+{
+  "type": "node",
+  "id": 2550653339,
+  "lat": 47.6322401,
+  "lon": 11.6777831
+},
+{
+  "type": "node",
   "id": 2554554570,
   "lat": 39.4551410,
   "lon": -120.0060545
@@ -105029,6 +105087,12 @@ var addressPoints=
   "id": 3163648092,
   "lat": 48.0995116,
   "lon": 16.3107669
+},
+{
+  "type": "node",
+  "id": 3175130710,
+  "lat": 47.6325778,
+  "lon": 11.6799362
 },
 {
   "type": "node",
