@@ -1,9 +1,9 @@
 var addressPoints= 
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.56.7 b85c4387",
+  "generator": "Overpass API 0.7.56.6 474850e8",
   "osm3s": {
-    "timestamp_osm_base": "2020-09-26T10:55:03Z",
+    "timestamp_osm_base": "2020-10-16T15:59:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -350,7 +350,7 @@ var addressPoints=
     "fee": "yes",
     "leisure": "sports_centre",
     "name": "Kletterwand am Biomassekraftwerk",
-    "opening_hours": "Mo-Su 07:00–22:00",
+    "opening_hours": "Mo-Su 07:00-22:00",
     "operator": "Biomasse Rhein-Main GmbH",
     "sport": "climbing",
     "website": "https://kletterfreunde-wicker.de/"
@@ -662,6 +662,21 @@ var addressPoints=
     "natural": "peak",
     "sport": "climbing",
     "wikidata": "Q2407140"
+  }
+},
+{
+  "type": "node",
+  "id": 672560826,
+  "lat": 58.5029909,
+  "lon": 5.8074778,
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Liten bratt vegg med masse formasjoner like ved jernbanen ned til Sirevåg, 200m fra riksvei 44. Grad 6 - 8. På Sirevåg er det også masser av gode buldremuligheter.",
+    "leisure": "pitch",
+    "name": "Sirevåg",
+    "sport": "climbing",
+    "website": "https://brv.no/uteklatring/tradklatring/"
   }
 },
 {
@@ -996,6 +1011,34 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 1164597903,
+  "lat": 58.8770410,
+  "lon": 5.6932350,
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "name": "Bærheim",
+    "note": "Østvendt vegg.<br> Grad 6 - 2 ruter<br>Grad 7 - 5 ruter <br>Grad 8 - 1 rute.",
+    "sport": "climbing",
+    "website": "https://brv.no/uteklatring/tradklatring/"
+  }
+},
+{
+  "type": "node",
+  "id": 1164597905,
+  "lat": 58.8968660,
+  "lon": 5.9630870,
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "name": "Dansen",
+    "note": "Lite klatrefelt i naturskjønne omgivelser. Veggen er vestvendt og svakt overhengende. <br> Feltet ble oppdaget i 1993 og har nå 5 ruter grad 6 til 8, samt noen prosjekter/muligheter. <br> Et par av rutene på feltet har ekstra fin fjellkvalitet.",
+    "sport": "climbing",
+    "website": "https://brv.no/uteklatring/tradklatring/"
+  }
+},
+{
+  "type": "node",
   "id": 1164597907,
   "lat": 58.8343700,
   "lon": 6.0714270,
@@ -1006,6 +1049,20 @@ var addressPoints=
     "note": "Klatring på store steiner som står i en myr, rundt 70 ruter 6-20 meter lange. 45km fra Stavanger,  alle (untatt 1) rutene er boltet. Ruter fra grad 4 og oppover til 9-. Bra felt for nybegynnere. Myra er våt, gummistøvler kan være en fordel.",
     "sport": "climbing",
     "website": "https://brattelinjer.no/area/2780"
+  }
+},
+{
+  "type": "node",
+  "id": 1164597908,
+  "lat": 58.3282850,
+  "lon": 6.3524150,
+  "tags": {
+    "climbing:sport": "yes",
+    "description": "Kjent for mange knallharde sportsruter. Utviklet fra 1993 av Håkon Hansen, Hjarrand Julsrud og Gunnar Karlsen. <br> Klatring på overhenget ved Husene (kulturminne) er ikke tillatt i turistsesongen, .",
+    "description2": "15. juni til 15. august. Det er heller ikke lov til å bolte mer i overhenget. Profilveggen byr på bratt og tung teknisk klatring, henger ut ca 18m på 50 høydemeter. 13 ruter",
+    "leisure": "pitch",
+    "name": "Helleren/Jøssingfjord",
+    "sport": "climbing"
   }
 },
 {
@@ -6452,10 +6509,11 @@ var addressPoints=
 {
   "type": "node",
   "id": 3812959642,
-  "lat": 41.2446049,
-  "lon": 9.1511757,
+  "lat": 41.2448829,
+  "lon": 9.1511418,
   "tags": {
     "climbing:sport": "yes",
+    "leisure": "sports_centre",
     "name": "Capo Testa / Cala Spinosa crag",
     "sport": "climbing"
   }
@@ -16962,7 +17020,6 @@ var addressPoints=
   "lat": 48.1232643,
   "lon": 11.6076551,
   "tags": {
-    "addr:street": "Lokweg",
     "climbing:boulder": "yes",
     "climbing:sport": "no",
     "leisure": "sports_centre",
@@ -33070,7 +33127,7 @@ var addressPoints=
     "ele": "600",
     "fee": "no",
     "leisure": "sports_centre",
-    "name": "Saint Jean",
+    "name": "Saint-Jean",
     "sport": "climbing"
   }
 },
@@ -34970,6 +35027,946 @@ var addressPoints=
   }
 },
 {
+  "type": "node",
+  "id": 7991672513,
+  "lat": 49.1757033,
+  "lon": 18.5851150,
+  "tags": {
+    "climbing:sport": "yes",
+    "name": "VPN",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7991672514,
+  "lat": 49.1759167,
+  "lon": 18.5855514,
+  "tags": {
+    "climbing:sport": "yes",
+    "name": "Obelisk",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7991672515,
+  "lat": 49.1762642,
+  "lon": 18.5858816,
+  "tags": {
+    "climbing:sport": "yes",
+    "name": "Vyhliadka",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7994899321,
+  "lat": 46.1997815,
+  "lon": 15.1733639,
+  "tags": {
+    "climbing:bolts": "yes",
+    "climbing:orientation": "south",
+    "climbing:quality": "solid",
+    "climbing:rock": "limestone",
+    "climbing:sport": "yes",
+    "climbing:trad": "no",
+    "fee": "no",
+    "name": "Kotečnik - sector B",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7994899322,
+  "lat": 46.2015730,
+  "lon": 15.1885518,
+  "tags": {
+    "climbing:length:max": "35",
+    "climbing:multipitch": "yes",
+    "climbing:orientation": "south",
+    "climbing:quality": "solid",
+    "climbing:rock": "limestone",
+    "climbing:sport": "yes",
+    "climbing:trad": "no",
+    "fee": "no",
+    "height": "60",
+    "name": "Kotečnik - pisani svet",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7994913008,
+  "lat": 46.2002180,
+  "lon": 15.1767832,
+  "tags": {
+    "climbing:rock": "limestone",
+    "climbing:sport": "yes",
+    "name": "Kotečnik - Sector B",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450198,
+  "lat": 45.8791434,
+  "lon": 8.6394554,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a+",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Bora Bora",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450199,
+  "lat": 45.8791488,
+  "lon": 8.6394241,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6b+",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Edelweiss",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450200,
+  "lat": 45.8791557,
+  "lon": 8.6393878,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:length": "18",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Voltaren",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450201,
+  "lat": 45.8791609,
+  "lon": 8.6393551,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6b",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Cemento Armato",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450202,
+  "lat": 45.8791663,
+  "lon": 8.6393237,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Sugon",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450203,
+  "lat": 45.8791720,
+  "lon": 8.6392929,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Occhio di Lumaca",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450204,
+  "lat": 45.8791798,
+  "lon": 8.6392618,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a+",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Stai Sereno",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450205,
+  "lat": 45.8791859,
+  "lon": 8.6392316,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "4c",
+    "climbing:length": "10",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Pensionati CGIL",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450206,
+  "lat": 45.8791900,
+  "lon": 8.6392048,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a+",
+    "climbing:length": "14",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Grazie Zia",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450207,
+  "lat": 45.8791288,
+  "lon": 8.6382856,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Zona Morta",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450208,
+  "lat": 45.8792038,
+  "lon": 8.6391314,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b+",
+    "climbing:length": "16",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Oltre",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450209,
+  "lat": 45.8791363,
+  "lon": 8.6383086,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "WWW.IT",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450210,
+  "lat": 45.8791481,
+  "lon": 8.6383375,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b+",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Aurora",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450211,
+  "lat": 45.8791461,
+  "lon": 8.6383638,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a+",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Brivido tra i tetti",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450212,
+  "lat": 45.8791461,
+  "lon": 8.6383851,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "3b",
+    "climbing:length": "20",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "La Valanga",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450213,
+  "lat": 45.8791476,
+  "lon": 8.6384086,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "4b",
+    "climbing:length": "18",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Fedeli alla linea",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450214,
+  "lat": 45.8791475,
+  "lon": 8.6384496,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b",
+    "climbing:length": "18",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Piccola e Fragile",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450215,
+  "lat": 45.8791470,
+  "lon": 8.6384669,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:length": "18",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Pesce d'aprile",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450216,
+  "lat": 45.8791456,
+  "lon": 8.6384854,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c+",
+    "climbing:length": "18",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Fuga da Buoux",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450217,
+  "lat": 45.8791458,
+  "lon": 8.6385046,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Zero",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450218,
+  "lat": 45.8791458,
+  "lon": 8.6385209,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c+",
+    "climbing:length": "18",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Eurjac",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450219,
+  "lat": 45.8791453,
+  "lon": 8.6385369,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a+",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Mamma li turchi",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450220,
+  "lat": 45.8791453,
+  "lon": 8.6385526,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a+",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "John Holmes",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995450221,
+  "lat": 45.8791459,
+  "lon": 8.6385674,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6b",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Vado a Casa",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621771,
+  "lat": 45.8791467,
+  "lon": 8.6385851,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6c",
+    "climbing:length": "15",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Labirinth",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621772,
+  "lat": 45.8791498,
+  "lon": 8.6386032,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:length": "12",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Super Sorci Verdi",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621774,
+  "lat": 45.8791580,
+  "lon": 8.6386794,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Matteo is Born",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621775,
+  "lat": 45.8791605,
+  "lon": 8.6386992,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Footlose",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621776,
+  "lat": 45.8791652,
+  "lon": 8.6387223,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Maiolica",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621777,
+  "lat": 45.8791720,
+  "lon": 8.6387692,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Lo Scorpione",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621778,
+  "lat": 45.8791782,
+  "lon": 8.6387915,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Puppe a pera",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621779,
+  "lat": 45.8791831,
+  "lon": 8.6388194,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "La Facile",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621780,
+  "lat": 45.8791885,
+  "lon": 8.6388629,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Highlander",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621782,
+  "lat": 45.8791935,
+  "lon": 8.6388881,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6b+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Single",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7995621784,
+  "lat": 45.8791961,
+  "lon": 8.6389103,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6c",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "L'attimo Sfuggente",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997565082,
+  "lat": 45.8793124,
+  "lon": 8.6353578,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "E, la vita. La vita",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997565083,
+  "lat": 45.8793084,
+  "lon": 8.6353979,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Zan Zan le rane",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997565084,
+  "lat": 45.8793055,
+  "lon": 8.6354360,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Il natale del naufrago",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568785,
+  "lat": 45.8793043,
+  "lon": 8.6354731,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "L'importante è esagerare",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568786,
+  "lat": 45.8793022,
+  "lon": 8.6355109,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "7a+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "New climbing cabaret",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568787,
+  "lat": 45.8793034,
+  "lon": 8.6355490,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6c+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "In caduta libera",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568788,
+  "lat": 45.8793024,
+  "lon": 8.6355882,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Pippa di meno",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568789,
+  "lat": 45.8793022,
+  "lon": 8.6356212,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "La libertà",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568790,
+  "lat": 45.8793032,
+  "lon": 8.6356633,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6c+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "La bambolina",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568791,
+  "lat": 45.8793029,
+  "lon": 8.6357053,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Vicolo cieco",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568792,
+  "lat": 45.8793025,
+  "lon": 8.6357500,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "OrangoTango",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568793,
+  "lat": 45.8793023,
+  "lon": 8.6357892,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6a+",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Il tempio degli uomini liberi",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568794,
+  "lat": 45.8793031,
+  "lon": 8.6358269,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "6b",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Ho soffritto per te",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568795,
+  "lat": 45.8793028,
+  "lon": 8.6358709,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5c",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Peste ti colga",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568796,
+  "lat": 45.8793003,
+  "lon": 8.6359147,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5b",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Rose e Sofie",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568797,
+  "lat": 45.8793013,
+  "lon": 8.6359571,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:grade:french": "5a",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Nico e Samu",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7997568798,
+  "lat": 45.8793015,
+  "lon": 8.6360024,
+  "tags": {
+    "climbing": "route_bottom",
+    "climbing:bolted": "yes",
+    "climbing:multipitch": "no",
+    "climbing:pitches": "1",
+    "climbing:sport": "yes",
+    "name": "Porta Romana",
+    "sport": "climbing"
+  }
+},
+{
   "type": "way",
   "id": 4374185,
   "nodes": [
@@ -35076,6 +36073,25 @@ var addressPoints=
     "name": "Goldgrubenfelsen",
     "natural": "cliff",
     "sport": "climbing"
+  }
+},
+{
+  "type": "way",
+  "id": 24931182,
+  "nodes": [
+    270923289,
+    7981991310,
+    7981991309,
+    7981991305
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 3- to 8-",
+    "name": "Nordland første etasje",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2915"
   }
 },
 {
@@ -37852,18 +38868,17 @@ var addressPoints=
   "id": 89932629,
   "nodes": [
     1042414383,
-    6828093226,
-    1042414391,
-    6828093228,
-    6828093227,
-    6828093229,
-    6828093230,
-    1042414393,
     1042414394,
+    1042414393,
+    6828093230,
+    6828093229,
+    6828093227,
+    6828093228,
+    1042414391,
+    6828093226,
     1042414383
   ],
   "tags": {
-    "area": "yes",
     "climbing:bolted": "yes",
     "climbing:length": "10",
     "climbing:sport": "8",
@@ -38192,6 +39207,43 @@ var addressPoints=
 },
 {
   "type": "way",
+  "id": 102374882,
+  "nodes": [
+    1182008751,
+    1182008669
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 7 to 8",
+    "name": "Europaveggen",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2903"
+  }
+},
+{
+  "type": "way",
+  "id": 102622168,
+  "nodes": [
+    1185092350,
+    7981991311,
+    7981991312,
+    7981991313,
+    1185092300
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 8-",
+    "name": "Nordland andre etasje",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2984"
+  }
+},
+{
+  "type": "way",
   "id": 103542647,
   "nodes": [
     1195478471,
@@ -38487,6 +39539,32 @@ var addressPoints=
     "outdoor": "yes",
     "sport": "climbing",
     "website": "https://www.lfu.bayern.de/geologie/geotope_schoensten/79/index.htm"
+  }
+},
+{
+  "type": "way",
+  "id": 112564917,
+  "nodes": [
+    1279114119,
+    1279114120,
+    4202763709,
+    173209177,
+    4202763702,
+    1279113667,
+    1279113670,
+    1279113649,
+    4202763698,
+    2428713528
+  ],
+  "tags": {
+    "climbing:orientation": "south",
+    "climbing:sport": "yes",
+    "name": "Martinswand",
+    "natural": "cliff",
+    "place": "locality",
+    "sport": "climbing",
+    "wikidata": "Q1814711",
+    "wikipedia": "de:Martinswand"
   }
 },
 {
@@ -41922,7 +43000,9 @@ var addressPoints=
     "opening_hours": "Mo-Sa 10:00-23:00; Tu, Th 07:00-23:00",
     "operator": "DAV Sektion Berlin",
     "outdoor": "yes",
-    "sport": "climbing",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "sport": "climbing;bouldering",
     "website": "http://kletterzentrum.dav-berlin.de/"
   }
 },
@@ -43110,6 +44190,24 @@ var addressPoints=
 },
 {
   "type": "way",
+  "id": 215367936,
+  "nodes": [
+    2247817741,
+    7981991314,
+    2247817750
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 7",
+    "name": "Nordland tredje etasje",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2985"
+  }
+},
+{
+  "type": "way",
   "id": 216046666,
   "nodes": [
     2254274809,
@@ -44169,6 +45267,7 @@ var addressPoints=
   "id": 239399295,
   "nodes": [
     2471874177,
+    7953506169,
     7732246388
   ],
   "tags": {
@@ -45248,7 +46347,8 @@ var addressPoints=
     "climbing:rock": "limestone",
     "climbing:sport": "yes",
     "fee": "no",
-    "name": "Bindsteinfelsen",
+    "height": "30",
+    "name": "Bindstein",
     "natural": "cliff",
     "sport": "climbing"
   }
@@ -46935,24 +48035,6 @@ var addressPoints=
     "climbing:sport": "yes",
     "ele": "270",
     "name": "Settore Santa Lucia",
-    "sport": "climbing"
-  }
-},
-{
-  "type": "way",
-  "id": 292551852,
-  "nodes": [
-    2960924926,
-    2960924927,
-    2960924928,
-    2960924929,
-    2960924930,
-    2960924931
-  ],
-  "tags": {
-    "climbing:sport": "yes",
-    "name": "Roche de la vierge",
-    "natural": "cliff",
     "sport": "climbing"
   }
 },
@@ -48823,6 +49905,7 @@ var addressPoints=
     "climbing:rock": "limestone",
     "climbing:sport": "yes",
     "fee": "no",
+    "height": "25",
     "name": "Bachfels",
     "natural": "cliff",
     "sport": "climbing"
@@ -53724,7 +54807,7 @@ var addressPoints=
     "climbing:grade:french:max": "7c",
     "climbing:grade:french:min": "5c",
     "climbing:orientation": "S",
-    "climbing:rock": "limesone",
+    "climbing:rock": "limestone",
     "climbing:sport": "yes",
     "name": "Falesia Castello di Gaino",
     "natural": "cliff",
@@ -61190,6 +62273,7 @@ var addressPoints=
     4951432289
   ],
   "tags": {
+    "climbing": "sport",
     "climbing:bolted": "yes",
     "climbing:grade:french:max": "7c",
     "climbing:grade:french:min": "5a",
@@ -61197,15 +62281,18 @@ var addressPoints=
     "climbing:orientation": "SW",
     "climbing:rock": "limestone",
     "climbing:sport": "23",
+    "contact:facebook": "https://www.facebook.com/climbagiospetros/",
     "ele": "880",
     "fee": "no",
+    "height": "820",
     "indoor": "no",
     "name": "Ζονάγκα",
     "name:el": "Ζονάγκα",
     "name:en": "Zonaga",
     "natural": "cliff",
     "sport": "climbing",
-    "url": "http://www.vrahomania.gr/agios_petros_arkadias/"
+    "url": "http://www.vrahomania.gr/agios_petros_arkadias/",
+    "website": "https://www.climbagiospetros.gr/zonagka/"
   }
 },
 {
@@ -61221,6 +62308,7 @@ var addressPoints=
     4951449855
   ],
   "tags": {
+    "climbing": "sport",
     "climbing:bolted": "yes",
     "climbing:grade:french:max": "8b",
     "climbing:grade:french:min": "5c+",
@@ -61228,6 +62316,7 @@ var addressPoints=
     "climbing:orientation": "S;SW",
     "climbing:rock": "limestone",
     "climbing:sport": "20",
+    "contact:facebook": "https://www.facebook.com/climbagiospetros/",
     "ele": "820",
     "fee": "no",
     "indoor": "no",
@@ -61236,7 +62325,8 @@ var addressPoints=
     "name:en": "Kakavo",
     "natural": "cliff",
     "sport": "climbing",
-    "url": "http://www.vrahomania.gr/agios_petros_arkadias/"
+    "url": "http://www.vrahomania.gr/agios_petros_arkadias/",
+    "website": "https://www.climbagiospetros.gr/kakabo/"
   }
 },
 {
@@ -61656,7 +62746,7 @@ var addressPoints=
     "climbing:grade:uiaa:min": "5",
     "climbing:length": "25",
     "climbing:orientation": "W",
-    "climbing:quality": "fragile",
+    "climbing:quality": "mixed",
     "climbing:rock": "slate",
     "climbing:sport": "43",
     "name": "Lorsbacher Wand",
@@ -64869,9 +65959,12 @@ var addressPoints=
     6021519910,
     6021519909,
     6021519908,
+    7994998882,
     6021519907,
+    7994998881,
     6021519906,
     6021519905,
+    7994998883,
     6021519904,
     6021519903,
     6021519902,
@@ -67493,7 +68586,8 @@ var addressPoints=
     6327911820,
     6327911825,
     6327911826,
-    6327911827
+    6327911827,
+    8006924160
   ],
   "tags": {
     "climbing:bolted": "yes",
@@ -76615,6 +77709,7 @@ var addressPoints=
   "id": 815882843,
   "nodes": [
     7619959594,
+    7949875793,
     7619959595
   ],
   "tags": {
@@ -77945,28 +79040,6 @@ var addressPoints=
 },
 {
   "type": "way",
-  "id": 839057652,
-  "nodes": [
-    7829921416,
-    7829921417,
-    5876029231
-  ],
-  "tags": {
-    "climbing": "crag",
-    "climbing:bolted": "yes",
-    "climbing:grade:french:max": "6c",
-    "climbing:grade:french:min": "4c",
-    "climbing:length:max": "200",
-    "climbing:length:min": "18",
-    "climbing:multipitch": "2",
-    "climbing:routes": "22",
-    "climbing:sport": "20",
-    "name": "Falesia del cannone",
-    "sport": "climbing"
-  }
-},
-{
-  "type": "way",
   "id": 843205106,
   "nodes": [
     7865694867,
@@ -78081,6 +79154,149 @@ var addressPoints=
   }
 },
 {
+  "type": "way",
+  "id": 854028154,
+  "nodes": [
+    7964778990,
+    7964778989,
+    7964778988,
+    7964778987,
+    7964778986,
+    7964778985,
+    7964766384
+  ],
+  "tags": {
+    "climbing:grade:uiaa:max": "7+",
+    "climbing:grade:uiaa:min": "5",
+    "climbing:length": "12",
+    "climbing:orientation": "S",
+    "climbing:quality": "solid",
+    "climbing:rock": "limestone",
+    "climbing:routes": "7",
+    "climbing:sport": "yes",
+    "name": "Bunkerwandl",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "way",
+  "id": 854669745,
+  "nodes": [
+    7970514686,
+    7970514687,
+    7970514688,
+    7970514689,
+    4107534262
+  ],
+  "tags": {
+    "climbing:grade:french:max": "8a+",
+    "climbing:grade:french:min": "6c",
+    "climbing:sport": "10",
+    "name": "Waldwandl",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://www.bergsteigen.com/touren/klettergarten/waldwandl/"
+  }
+},
+{
+  "type": "way",
+  "id": 856026895,
+  "nodes": [
+    7848389444,
+    270923291
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 7+",
+    "name": "Høyre - 2. etasje",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/3195"
+  }
+},
+{
+  "type": "way",
+  "id": 856026896,
+  "nodes": [
+    7981991306,
+    7981991307
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 5 to 7",
+    "name": "Nordland tredje etasje",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/2985"
+  }
+},
+{
+  "type": "way",
+  "id": 857514559,
+  "nodes": [
+    7994912997,
+    7994912998,
+    7994912999,
+    7994913000,
+    7994913001,
+    7994913002,
+    7994913003,
+    7994913004,
+    7994913005,
+    7994913006,
+    7994913007,
+    7994913008
+  ],
+  "tags": {
+    "climbing:rock": "limestone",
+    "climbing:sport": "yes",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "way",
+  "id": 857786355,
+  "nodes": [
+    7997064908,
+    7997064907
+  ],
+  "tags": {
+    "climbing:bolted": "2",
+    "climbing:length": "15",
+    "climbing:orientation": "W",
+    "climbing:quality": "solid",
+    "climbing:rock": "Porphyr",
+    "climbing:sport": "yes",
+    "name": "St. Hippolyt",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "way",
+  "id": 858838717,
+  "nodes": [
+    8006038730,
+    8006038732,
+    8006038733,
+    8006038734,
+    8006038731
+  ],
+  "tags": {
+    "climbing:sport": "yes",
+    "climbing:trad": "yes",
+    "description": "Grade: 6+ to 8",
+    "name": "Litlaberget",
+    "natural": "cliff",
+    "sport": "climbing",
+    "website": "https://brattelinjer.no/sector/3553"
+  }
+},
+{
   "type": "node",
   "id": 26673672,
   "lat": 58.9031586,
@@ -78121,6 +79337,12 @@ var addressPoints=
   "id": 83879667,
   "lat": 51.9666748,
   "lon": 9.6416561
+},
+{
+  "type": "node",
+  "id": 173209177,
+  "lat": 47.2700417,
+  "lon": 11.2735176
 },
 {
   "type": "node",
@@ -78304,6 +79526,18 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 270923289,
+  "lat": 58.8557342,
+  "lon": 5.8890787
+},
+{
+  "type": "node",
+  "id": 270923291,
+  "lat": 58.8550824,
+  "lon": 5.8911542
+},
+{
+  "type": "node",
   "id": 276564954,
   "lat": 52.4542016,
   "lon": 13.2679954
@@ -78401,8 +79635,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 293198634,
-  "lat": 51.6330230,
-  "lon": 11.8922654
+  "lat": 51.6331781,
+  "lon": 11.8920390
 },
 {
   "type": "node",
@@ -78596,8 +79830,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 325682876,
-  "lat": 50.2299862,
-  "lon": 8.4240268
+  "lat": 50.2299407,
+  "lon": 8.4240617
 },
 {
   "type": "node",
@@ -83327,6 +84561,12 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 1182008669,
+  "lat": 58.7453475,
+  "lon": 5.9413350
+},
+{
+  "type": "node",
   "id": 1182008703,
   "lat": 58.8333640,
   "lon": 6.0722033
@@ -83351,6 +84591,12 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 1182008751,
+  "lat": 58.7459304,
+  "lon": 5.9406367
+},
+{
+  "type": "node",
   "id": 1182008783,
   "lat": 58.8564186,
   "lon": 5.8981734
@@ -83366,6 +84612,18 @@ var addressPoints=
   "id": 1184924040,
   "lat": 49.5135891,
   "lon": 8.4697647
+},
+{
+  "type": "node",
+  "id": 1185092300,
+  "lat": 58.8557906,
+  "lon": 5.8891633
+},
+{
+  "type": "node",
+  "id": 1185092350,
+  "lat": 58.8560237,
+  "lon": 5.8884203
 },
 {
   "type": "node",
@@ -83640,14 +84898,14 @@ var addressPoints=
 {
   "type": "node",
   "id": 1219768706,
-  "lat": 58.9040018,
-  "lon": 5.7883941
+  "lat": 58.9039747,
+  "lon": 5.7884234
 },
 {
   "type": "node",
   "id": 1219768746,
-  "lat": 58.9045680,
-  "lon": 5.7895601
+  "lat": 58.9045561,
+  "lon": 5.7894630
 },
 {
   "type": "node",
@@ -83817,6 +85075,39 @@ var addressPoints=
   "id": 1271073280,
   "lat": 47.7490262,
   "lon": 12.6276629
+},
+{
+  "type": "node",
+  "id": 1279113649,
+  "lat": 47.2689345,
+  "lon": 11.2756480
+},
+{
+  "type": "node",
+  "id": 1279113667,
+  "lat": 47.2691025,
+  "lon": 11.2738811
+},
+{
+  "type": "node",
+  "id": 1279113670,
+  "lat": 47.2688658,
+  "lon": 11.2745789
+},
+{
+  "type": "node",
+  "id": 1279114119,
+  "lat": 47.2715935,
+  "lon": 11.2685014,
+  "tags": {
+    "source": "Bing"
+  }
+},
+{
+  "type": "node",
+  "id": 1279114120,
+  "lat": 47.2700964,
+  "lon": 11.2726373
 },
 {
   "type": "node",
@@ -86907,14 +88198,17 @@ var addressPoints=
 {
   "type": "node",
   "id": 1577105474,
-  "lat": 50.2295051,
-  "lon": 8.4229482
+  "lat": 50.2295077,
+  "lon": 8.4230085
 },
 {
   "type": "node",
   "id": 1577105509,
-  "lat": 50.2294227,
-  "lon": 8.4228946
+  "lat": 50.2293807,
+  "lon": 8.4229643,
+  "tags": {
+    "source": "https://www.flickr.com/photos/125134384@N03/50469290077/in/album-72157716401355457/"
+  }
 },
 {
   "type": "node",
@@ -86943,26 +88237,26 @@ var addressPoints=
 {
   "type": "node",
   "id": 1588203440,
-  "lat": 50.2303246,
-  "lon": 8.4211411
+  "lat": 50.2303383,
+  "lon": 8.4211223
 },
 {
   "type": "node",
   "id": 1588203441,
-  "lat": 50.2303727,
-  "lon": 8.4211723
+  "lat": 50.2303736,
+  "lon": 8.4211388
 },
 {
   "type": "node",
   "id": 1588203442,
-  "lat": 50.2302227,
-  "lon": 8.4206857
+  "lat": 50.2300228,
+  "lon": 8.4203156
 },
 {
   "type": "node",
   "id": 1588203443,
-  "lat": 50.2302286,
-  "lon": 8.4208480
+  "lat": 50.2299824,
+  "lon": 8.4203424
 },
 {
   "type": "node",
@@ -93522,6 +94816,18 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 2247817741,
+  "lat": 58.8556044,
+  "lon": 5.8895220
+},
+{
+  "type": "node",
+  "id": 2247817750,
+  "lat": 58.8553424,
+  "lon": 5.8900439
+},
+{
+  "type": "node",
   "id": 2254274809,
   "lat": 49.4121384,
   "lon": 11.6514024
@@ -95442,6 +96748,12 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 2428713528,
+  "lat": 47.2691936,
+  "lon": 11.2765060
+},
+{
+  "type": "node",
   "id": 2433910603,
   "lat": 45.9410201,
   "lon": 10.2534701
@@ -95916,14 +97228,14 @@ var addressPoints=
 {
   "type": "node",
   "id": 2471874177,
-  "lat": 58.8193080,
-  "lon": 5.9242700
+  "lat": 58.8192899,
+  "lon": 5.9243210
 },
 {
   "type": "node",
   "id": 2471874195,
-  "lat": 58.8192960,
-  "lon": 5.9254848
+  "lat": 58.8192613,
+  "lon": 5.9254526
 },
 {
   "type": "node",
@@ -96240,26 +97552,26 @@ var addressPoints=
 {
   "type": "node",
   "id": 2517664819,
-  "lat": 38.0710725,
-  "lon": 23.7385342
+  "lat": 38.0710726,
+  "lon": 23.7385348
 },
 {
   "type": "node",
   "id": 2517664826,
-  "lat": 38.0713021,
-  "lon": 23.7388232
+  "lat": 38.0713022,
+  "lon": 23.7388241
 },
 {
   "type": "node",
   "id": 2517664828,
-  "lat": 38.0711153,
-  "lon": 23.7388625
+  "lat": 38.0711154,
+  "lon": 23.7388633
 },
 {
   "type": "node",
   "id": 2517664830,
-  "lat": 38.0712593,
-  "lon": 23.7384949
+  "lat": 38.0712594,
+  "lon": 23.7384955
 },
 {
   "type": "node",
@@ -100875,8 +102187,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 2917870040,
-  "lat": 50.2303184,
-  "lon": 8.4209917
+  "lat": 50.2303133,
+  "lon": 8.4209327
 },
 {
   "type": "node",
@@ -101711,42 +103023,6 @@ var addressPoints=
   "id": 2960234120,
   "lat": 44.1346367,
   "lon": 8.2033984
-},
-{
-  "type": "node",
-  "id": 2960924926,
-  "lat": 50.4075238,
-  "lon": 5.5211005
-},
-{
-  "type": "node",
-  "id": 2960924927,
-  "lat": 50.4074811,
-  "lon": 5.5211300
-},
-{
-  "type": "node",
-  "id": 2960924928,
-  "lat": 50.4074247,
-  "lon": 5.5210039
-},
-{
-  "type": "node",
-  "id": 2960924929,
-  "lat": 50.4073837,
-  "lon": 5.5209985
-},
-{
-  "type": "node",
-  "id": 2960924930,
-  "lat": 50.4073683,
-  "lon": 5.5210388
-},
-{
-  "type": "node",
-  "id": 2960924931,
-  "lat": 50.4073905,
-  "lon": 5.5211192
 },
 {
   "type": "node",
@@ -117344,8 +118620,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 3735837810,
-  "lat": 38.0711233,
-  "lon": 23.7385254,
+  "lat": 38.0711231,
+  "lon": 23.7385242,
   "tags": {
     "entrance": "yes"
   }
@@ -117353,8 +118629,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 3735837811,
-  "lat": 38.0712043,
-  "lon": 23.7388464,
+  "lat": 38.0712041,
+  "lon": 23.7388447,
   "tags": {
     "entrance": "main"
   }
@@ -122649,6 +123925,12 @@ var addressPoints=
 },
 {
   "type": "node",
+  "id": 4107534262,
+  "lat": 47.3433799,
+  "lon": 15.3809207
+},
+{
+  "type": "node",
   "id": 4107790552,
   "lat": 38.6194577,
   "lon": -0.2334875
@@ -125946,6 +127228,24 @@ var addressPoints=
   "id": 4201307863,
   "lat": 50.4682502,
   "lon": 4.8993758
+},
+{
+  "type": "node",
+  "id": 4202763698,
+  "lat": 47.2691195,
+  "lon": 11.2762609
+},
+{
+  "type": "node",
+  "id": 4202763702,
+  "lat": 47.2696404,
+  "lon": 11.2733242
+},
+{
+  "type": "node",
+  "id": 4202763709,
+  "lat": 47.2703174,
+  "lon": 11.2731847
 },
 {
   "type": "node",
@@ -139422,12 +140722,6 @@ var addressPoints=
 },
 {
   "type": "node",
-  "id": 5876029231,
-  "lat": 45.9818508,
-  "lon": 8.3976821
-},
-{
-  "type": "node",
   "id": 5887936964,
   "lat": 52.3765283,
   "lon": 4.9113774,
@@ -140038,68 +141332,68 @@ var addressPoints=
 {
   "type": "node",
   "id": 6021519901,
-  "lat": 45.9234180,
-  "lon": 10.8906097
+  "lat": 45.9234105,
+  "lon": 10.8906473
 },
 {
   "type": "node",
   "id": 6021519902,
-  "lat": 45.9232862,
-  "lon": 10.8907013
+  "lat": 45.9232638,
+  "lon": 10.8907469
 },
 {
   "type": "node",
   "id": 6021519903,
-  "lat": 45.9232200,
-  "lon": 10.8906898
+  "lat": 45.9232359,
+  "lon": 10.8907072
 },
 {
   "type": "node",
   "id": 6021519904,
-  "lat": 45.9232164,
-  "lon": 10.8907787
+  "lat": 45.9232136,
+  "lon": 10.8908055
 },
 {
   "type": "node",
   "id": 6021519905,
-  "lat": 45.9233544,
-  "lon": 10.8908599
+  "lat": 45.9233292,
+  "lon": 10.8909135
 },
 {
   "type": "node",
   "id": 6021519906,
-  "lat": 45.9233908,
-  "lon": 10.8908630
+  "lat": 45.9233526,
+  "lon": 10.8909180
 },
 {
   "type": "node",
   "id": 6021519907,
-  "lat": 45.9234206,
-  "lon": 10.8908502
+  "lat": 45.9233982,
+  "lon": 10.8909012
 },
 {
   "type": "node",
   "id": 6021519908,
-  "lat": 45.9234419,
-  "lon": 10.8908265
+  "lat": 45.9234270,
+  "lon": 10.8908547
 },
 {
   "type": "node",
   "id": 6021519909,
-  "lat": 45.9234575,
-  "lon": 10.8907936
+  "lat": 45.9234351,
+  "lon": 10.8908137
 },
 {
   "type": "node",
   "id": 6021519910,
-  "lat": 45.9234951,
-  "lon": 10.8905886
+  "lat": 45.9234792,
+  "lon": 10.8906449
 },
 {
   "type": "node",
   "id": 6021519911,
-  "lat": 45.9234307,
-  "lon": 10.8905539
+  "lat": 45.9234204,
+  "lon": 10.8905955
 },
 {
   "type": "node",
@@ -141880,6 +143174,7 @@ var addressPoints=
   "lat": 47.0729266,
   "lon": 15.4586274,
   "tags": {
+    "access": "customers",
     "entrance": "main"
   }
 },
@@ -146348,8 +147643,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 6327911820,
-  "lat": 50.2335837,
-  "lon": 8.4213129
+  "lat": 50.2335717,
+  "lon": 8.4212110
 },
 {
   "type": "node",
@@ -146378,20 +147673,23 @@ var addressPoints=
 {
   "type": "node",
   "id": 6327911825,
-  "lat": 50.2334381,
-  "lon": 8.4214294
-},
-{
-  "type": "node",
-  "id": 6327911826,
-  "lat": 50.2334141,
+  "lat": 50.2334510,
   "lon": 8.4213784
 },
 {
   "type": "node",
+  "id": 6327911826,
+  "lat": 50.2333866,
+  "lon": 8.4213341
+},
+{
+  "type": "node",
   "id": 6327911827,
-  "lat": 50.2332716,
-  "lon": 8.4214857
+  "lat": 50.2331858,
+  "lon": 8.4213811,
+  "tags": {
+    "source": "https://www.flickr.com/photos/125134384@N03/50469134891/in/album-72157716401355457/"
+  }
 },
 {
   "type": "node",
@@ -167008,44 +168306,44 @@ var addressPoints=
 {
   "type": "node",
   "id": 7619959594,
-  "lat": 58.9041454,
-  "lon": 5.7886944
+  "lat": 58.9040985,
+  "lon": 5.7887483
 },
 {
   "type": "node",
   "id": 7619959595,
-  "lat": 58.9043902,
-  "lon": 5.7892049
+  "lat": 58.9043647,
+  "lon": 5.7892188
 },
 {
   "type": "node",
   "id": 7619959596,
-  "lat": 58.9044597,
-  "lon": 5.7891846
+  "lat": 58.9044382,
+  "lon": 5.7892092
 },
 {
   "type": "node",
   "id": 7619959597,
-  "lat": 58.9043476,
-  "lon": 5.7889278
+  "lat": 58.9043269,
+  "lon": 5.7889463
 },
 {
   "type": "node",
   "id": 7619959598,
-  "lat": 58.9043388,
-  "lon": 5.7888693
+  "lat": 58.9043173,
+  "lon": 5.7888878
 },
 {
   "type": "node",
   "id": 7619959599,
-  "lat": 58.9041750,
-  "lon": 5.7884387
+  "lat": 58.9041487,
+  "lon": 5.7884772
 },
 {
   "type": "node",
   "id": 7619959604,
-  "lat": 58.9036850,
-  "lon": 5.7877843
+  "lat": 58.9036564,
+  "lon": 5.7878567
 },
 {
   "type": "node",
@@ -167650,8 +168948,8 @@ var addressPoints=
 {
   "type": "node",
   "id": 7732246387,
-  "lat": 58.8192736,
-  "lon": 5.9251949
+  "lat": 58.8192542,
+  "lon": 5.9251922
 },
 {
   "type": "node",
@@ -169089,18 +170387,6 @@ var addressPoints=
 },
 {
   "type": "node",
-  "id": 7829921416,
-  "lat": 45.9807501,
-  "lon": 8.3988808
-},
-{
-  "type": "node",
-  "id": 7829921417,
-  "lat": 45.9814022,
-  "lon": 8.3977050
-},
-{
-  "type": "node",
   "id": 7847148611,
   "lat": 47.2976715,
   "lon": 9.6594706
@@ -169110,6 +170396,12 @@ var addressPoints=
   "id": 7847148612,
   "lat": 47.2975881,
   "lon": 9.6594112
+},
+{
+  "type": "node",
+  "id": 7848389444,
+  "lat": 58.8550393,
+  "lon": 5.8906561
 },
 {
   "type": "node",
@@ -169368,6 +170660,283 @@ var addressPoints=
   "id": 7937452335,
   "lat": 59.0684269,
   "lon": 5.9770301
+},
+{
+  "type": "node",
+  "id": 7949875793,
+  "lat": 58.9042921,
+  "lon": 5.7891599
+},
+{
+  "type": "node",
+  "id": 7953506169,
+  "lat": 58.8192942,
+  "lon": 5.9245230
+},
+{
+  "type": "node",
+  "id": 7964766384,
+  "lat": 47.3887357,
+  "lon": 11.2496057
+},
+{
+  "type": "node",
+  "id": 7964778985,
+  "lat": 47.3887348,
+  "lon": 11.2495749
+},
+{
+  "type": "node",
+  "id": 7964778986,
+  "lat": 47.3887394,
+  "lon": 11.2495507
+},
+{
+  "type": "node",
+  "id": 7964778987,
+  "lat": 47.3887484,
+  "lon": 11.2495373
+},
+{
+  "type": "node",
+  "id": 7964778988,
+  "lat": 47.3887457,
+  "lon": 11.2495145
+},
+{
+  "type": "node",
+  "id": 7964778989,
+  "lat": 47.3887348,
+  "lon": 11.2495105
+},
+{
+  "type": "node",
+  "id": 7964778990,
+  "lat": 47.3887285,
+  "lon": 11.2494971
+},
+{
+  "type": "node",
+  "id": 7970514686,
+  "lat": 47.3435192,
+  "lon": 15.3803873
+},
+{
+  "type": "node",
+  "id": 7970514687,
+  "lat": 47.3433775,
+  "lon": 15.3803766
+},
+{
+  "type": "node",
+  "id": 7970514688,
+  "lat": 47.3432612,
+  "lon": 15.3804892
+},
+{
+  "type": "node",
+  "id": 7970514689,
+  "lat": 47.3432793,
+  "lon": 15.3807092
+},
+{
+  "type": "node",
+  "id": 7981991305,
+  "lat": 58.8553180,
+  "lon": 5.8897001
+},
+{
+  "type": "node",
+  "id": 7981991306,
+  "lat": 58.8554553,
+  "lon": 5.8895882
+},
+{
+  "type": "node",
+  "id": 7981991307,
+  "lat": 58.8553483,
+  "lon": 5.8897497
+},
+{
+  "type": "node",
+  "id": 7981991309,
+  "lat": 58.8555037,
+  "lon": 5.8894215
+},
+{
+  "type": "node",
+  "id": 7981991310,
+  "lat": 58.8556057,
+  "lon": 5.8893222
+},
+{
+  "type": "node",
+  "id": 7981991311,
+  "lat": 58.8558915,
+  "lon": 5.8888551
+},
+{
+  "type": "node",
+  "id": 7981991312,
+  "lat": 58.8559007,
+  "lon": 5.8889290
+},
+{
+  "type": "node",
+  "id": 7981991313,
+  "lat": 58.8558415,
+  "lon": 5.8890254
+},
+{
+  "type": "node",
+  "id": 7981991314,
+  "lat": 58.8555671,
+  "lon": 5.8896339
+},
+{
+  "type": "node",
+  "id": 7994912997,
+  "lat": 46.2000505,
+  "lon": 15.1700280
+},
+{
+  "type": "node",
+  "id": 7994912998,
+  "lat": 46.1999707,
+  "lon": 15.1704545
+},
+{
+  "type": "node",
+  "id": 7994912999,
+  "lat": 46.2001143,
+  "lon": 15.1710539
+},
+{
+  "type": "node",
+  "id": 7994913000,
+  "lat": 46.1999388,
+  "lon": 15.1714689
+},
+{
+  "type": "node",
+  "id": 7994913001,
+  "lat": 46.1998510,
+  "lon": 15.1719416
+},
+{
+  "type": "node",
+  "id": 7994913002,
+  "lat": 46.1998829,
+  "lon": 15.1724949
+},
+{
+  "type": "node",
+  "id": 7994913003,
+  "lat": 46.1998749,
+  "lon": 15.1730943
+},
+{
+  "type": "node",
+  "id": 7994913004,
+  "lat": 46.1997393,
+  "lon": 15.1736938
+},
+{
+  "type": "node",
+  "id": 7994913005,
+  "lat": 46.1998430,
+  "lon": 15.1744200
+},
+{
+  "type": "node",
+  "id": 7994913006,
+  "lat": 46.1999946,
+  "lon": 15.1750886
+},
+{
+  "type": "node",
+  "id": 7994913007,
+  "lat": 46.2001223,
+  "lon": 15.1760108
+},
+{
+  "type": "node",
+  "id": 7994913008,
+  "lat": 46.2002180,
+  "lon": 15.1767832,
+  "tags": {
+    "climbing:rock": "limestone",
+    "climbing:sport": "yes",
+    "name": "Kotečnik - Sector B",
+    "natural": "cliff",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 7994998881,
+  "lat": 45.9233768,
+  "lon": 10.8909143
+},
+{
+  "type": "node",
+  "id": 7994998882,
+  "lat": 45.9234098,
+  "lon": 10.8908860
+},
+{
+  "type": "node",
+  "id": 7994998883,
+  "lat": 45.9232369,
+  "lon": 10.8908495
+},
+{
+  "type": "node",
+  "id": 7997064907,
+  "lat": 46.5809543,
+  "lon": 11.1600441
+},
+{
+  "type": "node",
+  "id": 7997064908,
+  "lat": 46.5811328,
+  "lon": 11.1600395
+},
+{
+  "type": "node",
+  "id": 8006038730,
+  "lat": 58.8904877,
+  "lon": 5.8628025
+},
+{
+  "type": "node",
+  "id": 8006038731,
+  "lat": 58.8902647,
+  "lon": 5.8633744
+},
+{
+  "type": "node",
+  "id": 8006038732,
+  "lat": 58.8904239,
+  "lon": 5.8630603
+},
+{
+  "type": "node",
+  "id": 8006038733,
+  "lat": 58.8903736,
+  "lon": 5.8631121
+},
+{
+  "type": "node",
+  "id": 8006038734,
+  "lat": 58.8903535,
+  "lon": 5.8631937
+},
+{
+  "type": "node",
+  "id": 8006924160,
+  "lat": 50.2331698,
+  "lon": 8.4214483
 }
 
   ]
