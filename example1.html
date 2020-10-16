@@ -101,9 +101,8 @@
 	if (hash.length == 3) {
 		map.setView(L.latLng(parseFloat(hash[0]),parseFloat(hash[1])),parseFloat(hash[2]));
 	} else {
-		cookie = getCookie("_old_location").split("%7C");
+		cookie = getCookie("_old_location").split("|");
 		if (cookie.length == 3){
-			console.log(cookie);
 			map.setView(L.latLng(parseFloat(cookie[0]),parseFloat(cookie[1])),parseFloat(cookie[2]));
 		}
 	}
