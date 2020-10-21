@@ -117,7 +117,7 @@
 		var lat = map.getCenter().lat.toFixed(4);
 		var lng = map.getCenter().lng.toFixed(4);
 		var zoom = map.getZoom();
-		window.location.hash = `map=${lat}/${lng}/${zoom}`;
+		location.replace(`#map=${lat}/${lng}/${zoom}`);
 		setCookie("_old_location",`${lat}%7C${lng}%7C${zoom}`,365);
 	});
 
