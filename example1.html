@@ -40,6 +40,29 @@
 
 <script type="text/javascript">
 
+	function setCookie(cname, cvalue, exdays) {
+	  var d = new Date();
+	  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+	  var expires = "expires="+ d.toUTCString();
+	  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function getCookie(cname) {
+	  var name = cname + "=";
+	  var decodedCookie = decodeURIComponent(document.cookie);
+	  var ca = decodedCookie.split(';');
+	  for(var i = 0; i <ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') {
+		  c = c.substring(1);
+		}
+		if (c.indexOf(name) == 0) {
+		  return c.substring(name.length, c.length);
+		}
+	  }
+	  return "";
+	}
+
 
 	var map = new L.Map('map', {
 
@@ -74,10 +97,28 @@
 		follow: true
 	}).addTo(map);
 
+	var hash = window.location.hash.substr(5).split("/");
+	if (hash.length == 3) {
+		map.setView(L.latLng(parseFloat(hash[0]),parseFloat(hash[1])),parseFloat(hash[2]));
+	} else {
+		cookie = getCookie("_old_location").split("|");
+		if (cookie.length == 3){
+			map.setView(L.latLng(parseFloat(cookie[0]),parseFloat(cookie[1])),parseFloat(cookie[2]));
+		}
+	}
+
 	map.on('startfollowing', function() {
 		map.on('dragstart', lc.stopFollowing);
 	}).on('stopfollowing', function() {
 		map.off('dragstart', lc.stopFollowing);
+	});
+
+	map.on('zoomend moveend', function() {
+		var lat = map.getCenter().lat.toFixed(4);
+		var lng = map.getCenter().lng.toFixed(4);
+		var zoom = map.getZoom();
+		location.replace(`#map=${lat}/${lng}/${zoom}`);
+		setCookie("_old_location",`${lat}%7C${lng}%7C${zoom}`,365);
 	});
 
 </script>
